@@ -7,32 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-/* Load IBM Plex Sans from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap');
-
-/* Apply font to entire Minimal Mistakes site */
-html,
-body,
-.page,
-.page__content,
-.page__inner-wrap,
-.archive,
-.archive__item,
-.masthead,
-.sidebar,
-.greedy-nav,
-.greedy-nav a,
-.page__footer,
-.footer,
-h1, h2, h3, h4, h5, h6,
-p, li, span, a {
-  font-family: "Times New Roman", Times, serif !important;
-}
-
-/* Headings styling */
-h1, h2, h3 {
-  font-weight: 600;
-  letter-spacing: -0.5px;
-}
-
