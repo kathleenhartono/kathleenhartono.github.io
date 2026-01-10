@@ -1,10 +1,9 @@
-f# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-# Site title & description
 
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 
@@ -12,16 +11,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kathleen Hartono"
+title                    : "David Florian"
 title_separator          : "-"
-subtitle                 : " "
-name                     : &name "Kathleen Hartono" # &name is a YAML anchor which can be *referenced later
-description              : &description "Kathleen Hartono"
-url                      : https://kathleenhartono.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "Example Website for Class"
+name                     : &name "David Florian" # &name is a YAML anchor which can be *referenced later
+description              : &description "Example website for class "
+url                      : https://davidflorianjr.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : #""
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -50,6 +49,8 @@ reCaptcha:
   siteKey                : # "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
   secret                 : # "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
 
+atom_feed:
+  path                   : # blank (default) uses feed.xml
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
@@ -79,6 +80,11 @@ facebook:
 og_image                 : 
 # For specifying social profiles, used in _includes/seo.html
 # - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://www.instagram.com/dr.dflo"
 
 # Analytics
 analytics:
@@ -91,26 +97,27 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/img/Screenshot 2026-01-10 at 07.44.01.png"
-  bio              : "Chemical Engineering @ Vanderbilt "
-  location         : "Knoxville, TN"
+  avatar           : "assets/img/David_Headshot_web2.jpg"
+  bio              : "An engineer with a passion for teaching "
+  location         : "Nashville, TN"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kathleenhartono"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/kathleenhartono"
+      url: "https://github.com/DrD-Flo"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/dr.dflo"
+
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kathleenhartono"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/kathleenhartono"
+      url: "https://github.com/DrD-Flo"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/dr.dflo"
 
 
 # Reading Files
@@ -123,6 +130,7 @@ exclude:
   - vendor
   - .asset-cache
   - .bundle
+  - .jekyll-assets-cache
   - .sass-cache
   - assets/js/plugins
   - assets/js/_main.js
@@ -224,6 +232,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -232,6 +241,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 
 # Archives
