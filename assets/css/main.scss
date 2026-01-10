@@ -8,20 +8,31 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+/* Load IBM Plex Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap');
 
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+/* Apply font to entire Minimal Mistakes site */
+html,
+body,
+.page,
+.page__content,
+.page__inner-wrap,
+.archive,
+.archive__item,
+.masthead,
+.sidebar,
+.greedy-nav,
+.greedy-nav a,
+.page__footer,
+.footer,
+h1, h2, h3, h4, h5, h6,
+p, li, span, a {
+  font-family: 'IBM Plex Sans', Arial, sans-serif !important;
 }
 
-.page-content,
-.wrapper,
-.markdown-body,
-main {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-}
-
+/* Headings styling */
 h1, h2, h3 {
   font-weight: 600;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.5px;
 }
+
