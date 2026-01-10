@@ -1,5 +1,5 @@
 ---
-title: "Kathleen Hartono"
+title: "Home"
 layout: splash
 header:
   overlay_color: "#000"
