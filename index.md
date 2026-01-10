@@ -16,7 +16,7 @@ feature_row:
     alt: "Food"
     title: "Food Enthusiast"
     excerpt: "Growing up in a family restaurant, I developed a love for discovering new cuisines and experimenting in the kitchen. Sharing meals and trying new foods has become one of my favorite ways to connect with others and create lasting memories."
-  - image_path: assets/img/adventure3.png
+  - image_path: assets/img/adventure4.png
     alt: "Travel"
     title: "Adventure & Travel"
     excerpt: "I enjoy experiencing new places and learning from different cultures, which helps me gain new perspectives, broaden my understanding of the world, and approach challenges in unexpected ways."
