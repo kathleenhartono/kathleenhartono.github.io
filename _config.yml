@@ -97,7 +97,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/David_Headshot_web2.jpg"
+  avatar           : "/assets/img/Screenshot 2026-01-10 at 07.44.01.png"
   bio              : "Chemical Engineering @ Vanderbilt "
   location         : "Knoxville, TN"
   links:
@@ -106,7 +106,7 @@ author:
       url: "https://github.com/kathleenhartono"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "www.linkedin.com/in/kathleenhartono"
+      url: "https://linkedin.com/in/kathleenhartono"
 
 # Site Footer
 footer:
