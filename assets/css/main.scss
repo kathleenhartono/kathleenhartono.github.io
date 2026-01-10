@@ -7,3 +7,6 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+git add _config.yml assets/css/main.scss
+git commit -m "Update site title, subtitle, and set Times New Roman font"
+git push
