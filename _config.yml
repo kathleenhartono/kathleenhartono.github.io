@@ -8,12 +8,6 @@ f# Welcome to Jekyll!
 
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-include-cache
-
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
