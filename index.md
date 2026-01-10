@@ -8,9 +8,9 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-    - label: "About Me"
+    - label: "About Me" 
       url: "/about/"
-excerpt: "Kathleen is."
+excerpt: "Kathleen is a third-year Chemical Engineering undergraduate at Vanderbilt, excited to pursue a career in blah, blah, blah."
 feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
     alt: "CNC Mill"
