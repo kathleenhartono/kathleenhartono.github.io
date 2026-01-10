@@ -8,6 +8,8 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
+    - label: "About Me"
+      url: "/about/"
 excerpt: "Kathleen is."
 feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
