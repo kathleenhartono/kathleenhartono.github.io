@@ -1,5 +1,5 @@
 ---
-title: "Example Web Page"
+title: "Kathleen Hartono"
 layout: splash
 header:
   overlay_color: "#000"
