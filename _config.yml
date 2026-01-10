@@ -4,7 +4,9 @@ f# Welcome to Jekyll!
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
+# Site title & description
+title: "Kathleen Hartono"
+description: "About Kathleen Hartono – Chemical Engineering student, energy and materials enthusiast"
 remote_theme             : "raviriley/agency-jekyll-theme"
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
