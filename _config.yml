@@ -16,7 +16,7 @@ title                    : "Kathleen Hartono"
 title_separator          : "-"
 subtitle                 : " "
 name                     : &name "Kathleen Hartono" # &name is a YAML anchor which can be *referenced later
-description              : &description "Kathleen Hartono "
+description              : &description "Kathleen Hartono"
 url                      : https://kathleenhartono.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
