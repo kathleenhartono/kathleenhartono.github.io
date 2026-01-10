@@ -20,4 +20,8 @@ I am a chemical engineering student, interested in energy, materials, and global
 * Excel, MATLAB, Aspen, Basic Python, TIBCO Spotfire, MES, Six Sigma, CAD, 3D Printing, Soldering.
 
 ## Publication
-
+title: "Mechanically induced thermal runaway severity analysis of Li-ion batteries and continuous energy release monitoring"
+author: "First Author, Kathleen Hartono, Third Author" # put authors in order
+journal: "Journal of Environmental Science & Technology"
+year: 2025
+doi: "10.1016/j.est.2025.118078"
