@@ -11,11 +11,11 @@ I am a chemical engineering student, interested in energy, materials, and global
 Vanderbilt University 
 * B.E. Chemical Engineering 
   * Minors: Chemistry, Material Science & Engineering 
-National University of Singapore 
+* National University of Singapore 
   * Exchange Program 
 
 ## Technical Skills
 
 Excel, MATLAB, Aspen, Basic Python, TIBCO Spotfire, MES, Six Sigma, CAD, 3D Printing, Soldering.
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/LIN09912 3.HEIC" alt="David Florian" style="width:200px;"/>
