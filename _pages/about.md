@@ -11,11 +11,13 @@ Vanderbilt University
   * Minors: Chemistry, Material Science & Engineering 
 * National University of Singapore 
   * Exchange Program
+ 
 ## Work Experience
+*  Ultium Cells
+*  
 
 ## Technical Skills
-
-Excel, MATLAB, Aspen, Basic Python, TIBCO Spotfire, MES, Six Sigma, CAD, 3D Printing, Soldering.
+* Excel, MATLAB, Aspen, Basic Python, TIBCO Spotfire, MES, Six Sigma, CAD, 3D Printing, Soldering.
 
 ## Publication
 
