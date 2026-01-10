@@ -123,7 +123,6 @@ exclude:
   - vendor
   - .asset-cache
   - .bundle
-  - .jekyll-assets-cache
   - .sass-cache
   - assets/js/plugins
   - assets/js/_main.js
@@ -225,7 +224,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -234,7 +232,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-include-cache
 
 
 # Archives
