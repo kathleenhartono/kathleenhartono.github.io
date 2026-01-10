@@ -18,4 +18,4 @@ Vanderbilt University
 
 Excel, MATLAB, Aspen, Basic Python, TIBCO Spotfire, MES, Six Sigma, CAD, 3D Printing, Soldering.
 
-<img src="/assets/img/LIN09912 3.HEIC" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/Screenshot 2026-01-10 at 07.44.01.png" alt="David Florian" style="width:200px;"/>
