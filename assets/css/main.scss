@@ -1,16 +1,9 @@
 ---
-# Main SCSS file for Minimal Mistakes
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
 ---
 
-/* Set site-wide fonts */
-$body-font-family: "Times New Roman", Times, serif;
-$heading-font-family: "Times New Roman", Times, serif;
+@charset "utf-8";
 
-/* Import Minimal Mistakes skin and main styles */
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
-
-/* Optional: heading tweaks */
-h1, h2, h3 {
-  font-weight: 600;
-  letter-spacing: -0.5px;
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
