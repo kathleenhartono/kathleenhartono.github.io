@@ -16,7 +16,7 @@ feature_row:
     alt: "Food"
     title: "Foodie"
     excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: adventure .png
+  - image_path: assets/img/adventure .png
     alt: "Travel"
     title: "I love adventure"
     excerpt: "A hot plasma stream slices through sheet metal."
