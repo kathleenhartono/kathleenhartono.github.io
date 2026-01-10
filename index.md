@@ -14,16 +14,16 @@ excerpt: "Kathleen is a third-year Chemical Engineering undergraduate at Vanderb
 feature_row:
   - image_path: assets/img/Screenshot 2026-01-10 at 16.29.16.png
     alt: "Food"
-    title: "Custom CNC Milling Machine"
+    title: "Foodie"
     excerpt: "Built for fabricating aluminum and steel parts."
   - image_path: assets/img/Screenshot 2026-01-10 at 16.29.26.png
     alt: "Travel"
-    title: "DIY Plasma Cutter"
+    title: "I love adventure"
     excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
+  - image_path: assets/img/Screenshot 2026-01-10 at 16.36.12.png
     alt: "Batteries"
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+    title: "Battery Research and Manufacturing"
+    excerpt: "Experience with batteries"
 ---
 
 {% include feature_row %}
