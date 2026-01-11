@@ -34,33 +34,33 @@ Compact, Integrated Design
 The motor, syringe holder, electronics, and control buttons are all built into a single compact unit. This makes the pump easy to transport, operate, and deploy on a benchtop without needing external modules.
 
 # Off-the-Shelf Parts
-| Part | Description | Quantity |
-|------|------------|----------|
-| Stepper Motor | NEMA 17 stepper motor | 1 |
-| Stepper Driver | Motor driver module | 1 |
-| Arduino | Arduino microcontroller | 1 |
-| Power Supply | 12V DC power supply | 1 |
-| Lead Screw | 2 mm pitch lead screw | 1 |
-| Linear Rod | Guide rod for carriage | 1 |
-| Linear Bearing | Bearing for carriage | 1 |
-| Syringes | 10 mL and 20 mL | 2 |
-| Push Buttons | Momentary + latching buttons | 3 |
-| Limit Switch | End-of-travel switch | 1 |
-| Potentiometer | Flow rate control | 1 |
-| LEDs | Red, green, blue | 3 |
-| Breadboard | Electronics mounting | 1 |
-| Jumper wires | Electrical connections | — |
+| Part           | Description               | Quantity |
+|----------------|---------------------------|----------|
+| Stepper Motor  | NEMA 17 stepper motor     | 1        |
+| Stepper Driver | Motor driver module       | 1        |
+| Arduino        | Arduino microcontroller   | 1        |
+| Power Supply   | 12V DC power supply       | 1        |
+| Lead Screw     | 2 mm pitch lead screw     | 1        |
+| Linear Rod     | Guide rod for carriage    | 1        |
+| Linear Bearing | Bearing for carriage      | 1        |
+| Syringes       | 10 mL and 20 mL           | 2        |
+| Push Buttons   | Momentary + latching      | 3        |
+| Limit Switch   | End-of-travel switch      | 1        |
+| Potentiometer  | Flow rate control         | 1        |
+| LEDs           | Red, green, blue          | 3        |
+| Breadboard     | Electronics mounting      | 1        |
+| Jumper Wires   | Electrical connections    | —        |
 
 
 # 3D-Printed Parts
-| Part | Material | Fabrication Method |
-|------|----------|-------------------|
-| Enclosure | PLA | 3D printed |
-| Enclosure Lid | PLA | 3D printed |
-| Syringe End Support | PLA | 3D printed |
-| Carriage | PLA | 3D printed |
-| Plunger Holder | PLA | 3D printed |
-| Motor Mount | PLA | 3D printed |
+| Part               | Material | Fabrication Method |
+|:------------------|:--------|:-----------------|
+| Enclosure          | PLA     | 3D printed        |
+| Enclosure Lid      | PLA     | 3D printed        |
+| Syringe End Support| PLA     | 3D printed        |
+| Carriage           | PLA     | 3D printed        |
+| Plunger Holder     | PLA     | 3D printed        |
+| Motor Mount        | PLA     | 3D printed        |
 
 Link to Arduino Code
 
