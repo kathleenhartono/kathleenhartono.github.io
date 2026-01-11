@@ -12,7 +12,7 @@ gallery:
 ---
 This syringe pump is a low-cost, 3D-printed device designed to deliver precise and adjustable fluid flow for laboratory and prototyping applications. It uses a stepper motor and lead screw mechanism to convert rotational motion into linear displacement of a syringe plunger, allowing accurate control of flow rate. The design supports both 10 mL and 20 mL syringes and includes adjustable flow control, LED status indicators, and safety features such as a limit switch and enclosed electronics.
 
-# Key Features
+## Key Features
 
 Adjustable and Precise Flow Control
 The syringe pump allows users to set flow rates between 1 and 10 mL/min using either a potentiometer or values defined in the Arduino code. This provides both real-time manual control and repeatable programmed operation. The stepper motor and lead screw convert rotational motion into precise linear movement of the syringe plunger, ensuring consistent fluid delivery.
@@ -32,7 +32,7 @@ All electronics, including the Arduino, motor driver, and power supply, are hous
 Compact, Integrated Design
 The motor, syringe holder, electronics, and control buttons are all built into a single compact unit. This makes the pump easy to transport, operate, and deploy on a benchtop without needing external modules.
 
-# Off-the-Shelf Parts
+## Off-the-Shelf Parts
 | Part           | Description               | Quantity |
 |----------------|---------------------------|----------|
 | Stepper Motor  | NEMA 17 stepper motor     | 1        |
@@ -51,7 +51,7 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 | Jumper Wires   | Electrical connections    | —        |
 
 
-# 3D-Printed Parts
+## 3D-Printed Parts
 | Part               | Material | Fabrication Method |
 |:------------------|:--------|:-----------------|
 | Enclosure          | PLA     | 3D printed        |
@@ -61,7 +61,7 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 | Plunger Holder     | PLA     | 3D printed        |
 | Motor Mount        | PLA     | 3D printed        |
 
-[Arduino Code](https://github.com/YourUsername/syringe-pump-arduino/blob/<branch>/code/SyringePump.ino)
+## [Arduino Code](https://github.com/YourUsername/syringe-pump-arduino/blob/<branch>/code/SyringePump.ino)
 
 ## Operating Instructions
 
