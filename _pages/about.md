@@ -13,10 +13,10 @@ I am a chemical engineering student, interested in energy, materials, and global
   * Fall 2025 Exchange Program 
  
 ## Work Experience
-*  Ultium Cells- Summer 2025
-*  Colloid Laboratory at Vanderbilt 
-*  Oak Ridge National Laboratory- Summer 2024
-*  Waitress 
+*  Ultium Cells LLC (GM & LG Energy Solution JV) 
+*  Colloids & Interfacial Phenomena Laboratory 
+*  Oak Ridge National Laboratory
+*  Dragon Den Chinese Restaurant
 
 ## Technical Skills
 * Excel, MATLAB, Aspen, Basic Python, TIBCO Spotfire, MES, Six Sigma, CAD, 3D Printing, Soldering.
