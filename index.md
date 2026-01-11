@@ -10,7 +10,7 @@ header:
       url: "/portfolio/"
     - label: "About Me" 
       url: "/about/"
-excerpt: "Kathleen is a third-year Chemical Engineering undergraduate at Vanderbilt, excited to pursue a career in blah, blah, blah."
+excerpt: "Kathleen Hartono is a third-year Chemical Engineering undergraduate at Vanderbilt University focused on energy and materials for industrial applications. She enjoys working in team-based environments and bringing technical ideas into real-world settings."
 feature_row:
   - image_path: assets/img/Screenshot 2026-01-10 at 16.29.16.png
     alt: "Food"
@@ -23,7 +23,7 @@ feature_row:
   - image_path: assets/img/battery2.png
     alt: "Energy & Materials"
     title: "Energy & Materials"
-    excerpt: "My interest in sustainable energy and materials comes from hands-on experience in battery research and manufacturing, where I’ve worked on practical solutions both in the lab and on the production floor."
+    excerpt: "My interest in energy and materials comes from hands-on experience in battery research and manufacturing, where I’ve worked on practical solutions both in the lab and on the production floor."
 ---
 
 {% include feature_row %}
