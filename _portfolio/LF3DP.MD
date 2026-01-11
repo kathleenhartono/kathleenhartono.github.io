@@ -10,7 +10,13 @@ gallery:
   - image_path: assets/img/Slide-4.png
    
 ---
-
+Description of the purpose/features of the design
+Markdown table with off-the-shelf-parts
+Markdown table (either separate or combined with the off-the-shelf-parts). 
+Link to Arduino Code
+Interactive Fusion 360 model
+Operating instruction
+Proper Thumbnails
 # Features
 
 * **Massive Print Area: 1140 x 1200 x 1100 mm.** With a build envelop just shy of 4 feet in all dimensions, the LF3DP is capable of printing furniture and other large objects.
@@ -18,6 +24,6 @@ gallery:
 * **Affordable Pellet Feedstock** Pellets are the cheapest form of feedstock for any plastic-based manufacturing process. Save 50-75% of material costs by using pellets instead of spools of filament. Concentrated colorant can be added to the virgin material to achieve any color in the rainbow without requiring large amounts of storage. Recyled material can also be used for sustainable material printing.
 
 # CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48d6c4dbd4ad21763?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48d6c4dbd4ad21763?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="Large Format 3D Printer Gallery" %}
