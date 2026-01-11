@@ -68,9 +68,7 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 | Plunger Holder     | PLA     | 3D printed        |
 | Motor Mount        | PLA     | 3D printed        |
 
-# [Arduino Code](https://github.com/kathleenhartono/syringe-pump-arduino/blob/main/code)
 # [Arduino Code](https://kathleenhartono.github.io/_pages/syringe-pump-arduino-code.md)
-
 
 ## Operating Instructions
 
