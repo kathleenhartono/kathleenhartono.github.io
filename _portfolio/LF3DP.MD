@@ -10,7 +10,6 @@ gallery:
   - image_path: assets/img/Slide-4.png
    
 ---
-# * Syringe Pump *
 This syringe pump is a low-cost, 3D-printed device designed to deliver precise and adjustable fluid flow for laboratory and prototyping applications. It uses a stepper motor and lead screw mechanism to convert rotational motion into linear displacement of a syringe plunger, allowing accurate control of flow rate. The design supports both 10 mL and 20 mL syringes and includes adjustable flow control, LED status indicators, and safety features such as a limit switch and enclosed electronics.
 
 # Key Features
@@ -62,7 +61,7 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 | Plunger Holder     | PLA     | 3D printed        |
 | Motor Mount        | PLA     | 3D printed        |
 
-[Arduino Code](https://github.com/kathleenhartono/syringe-pump)
+[Arduino Code](https://github.com/YourUsername/syringe-pump-arduino/blob/<branch>/code/SyringePump.ino)
 
 ## Operating Instructions
 
