@@ -39,6 +39,7 @@ All electronics, including the Arduino, motor driver, and power supply, are hous
 The motor, syringe holder, electronics, and control buttons are all built into a single compact unit. This makes the pump easy to transport, operate, and deploy on a benchtop without needing external modules.
 
 ## Off-the-Shelf Parts
+
 | Part           | Description               | Quantity |
 |----------------|---------------------------|----------|
 | Stepper Motor  | NEMA 17 stepper motor     | 1        |
@@ -58,6 +59,7 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 
 
 ## 3D-Printed Parts
+
 | Part               | Material | Fabrication Method |
 |:------------------|:--------|:-----------------|
 | Enclosure          | PLA     | 3D printed        |
