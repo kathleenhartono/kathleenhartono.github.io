@@ -57,7 +57,6 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 | Breadboard     | Electronics mounting      | 1        |
 | Jumper Wires   | Electrical connections    | —        |
 
-
 ## 3D-Printed Parts
 
 | Part               | Material | Fabrication Method |
@@ -69,7 +68,7 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 | Plunger Holder     | PLA     | 3D printed        |
 | Motor Mount        | PLA     | 3D printed        |
 
-## [Arduino Code](https://github.com/kathleenhartono/syringe-pump-arduino/blob/<branch>/code/SyringePump.ino)
+## [Arduino Code](https://github.com/kathleenhartono/syringe-pump-arduino)
 
 ## Operating Instructions
 
