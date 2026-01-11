@@ -1,5 +1,6 @@
 ---
 title: "Syringe Pump"
+permalink: Syringe-Pump
 excerpt: "A 1 kg/hr pellet extruder and 1 cubic meter build envelope for printing furniture."
 header:
   image: /assets/img/LF3DP-Banner-2.jpg
