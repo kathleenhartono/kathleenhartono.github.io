@@ -14,7 +14,7 @@ This syringe pump is a low-cost, 3D-printed device designed to deliver precise a
 
 ## Key Features
 
-*Adjustable and Precise Flow Control
+* Adjustable and Precise Flow Control
 
 The syringe pump allows users to set flow rates between 1 and 10 mL/min using either a potentiometer or values defined in the Arduino code. This provides both real-time manual control and repeatable programmed operation. The stepper motor and lead screw convert rotational motion into precise linear movement of the syringe plunger, ensuring consistent fluid delivery.
 
