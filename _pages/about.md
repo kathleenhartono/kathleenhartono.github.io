@@ -13,13 +13,17 @@ I am a chemical engineering student, interested in energy, materials, and global
   * Fall 2025 Exchange Program 
  
 ## Work Experience
-*  Ultium Cells LLC (GM & LG Energy Solution JV) I May 2025 – Aug 2025
+*  Ultium Cells LLC (GM & LG Energy Solution JV) I
+   May 2025 – Aug 2025
    * Process Engineering Intern, Electrode Division
-*  Colloids & Interfacial Phenomena Laboratory I Jan 2025 - Present
+*  Colloids & Interfacial Phenomena Laboratory I
+   Jan 2025 - Present
    * Undergraduate Research Assistant 
-*  Oak Ridge National Laboratory I May 2024 - Aug 2024
+*  Oak Ridge National Laboratory
+   May 2024 - Aug 2024
    * Research Intern, Material Science and Technology Division
-*  Dragon Den Chinese Restaurant I Apr 2016 - Aug 2024
+*  Dragon Den Chinese Restaurant
+   Apr 2016 - Aug 2024
    * Waitress
  
 ## Technical Skills
