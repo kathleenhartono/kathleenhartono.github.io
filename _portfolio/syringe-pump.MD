@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump"
-excerpt: "A 1 kg/hr pellet extruder and 1 cubic meter build envelope for printing furniture."
+excerpt: "A low-cost 3D-printed syringe pump delivering precise, adjustable flow with safety features and LED indicators."
 header:
   image: /assets/img/Slide-3.png
   teaser: /assets/img/Slide-3.png
@@ -86,4 +86,4 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 # Interactive Fusion 360 Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48d6c4dbd4ad21763?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+{% include gallery caption="Syringe Pump Gallery" %}
