@@ -5,7 +5,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/img/gbtb.JPG
-  actions:
+  actions: 
     - label: "My Projects"
       url: "/portfolio/"
 excerpt: "Kathleen Hartono is a third-year Chemical Engineering undergraduate at Vanderbilt University focused on energy and materials for industrial applications. She enjoys working in team-based environments and bringing technical ideas into real-world settings."
