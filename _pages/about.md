@@ -14,17 +14,13 @@ I am a chemical engineering student, interested in energy, materials, and global
  
 ## Work Experience
 *  Ultium Cells LLC (GM & LG Energy Solution JV)
-   May 2025 – Aug 2025
-   * Process Engineering Intern, Electrode Division
+   * Process Engineering Intern, Electrode Division, May 2025 – Aug 2025
 *  Colloids & Interfacial Phenomena Laboratory
-   Jan 2025 - Present
-   * Undergraduate Research Assistant 
+   * Undergraduate Research Assistant, Jan 2025 - Present 
 *  Oak Ridge National Laboratory
-   May 2024 - Aug 2024
-   * Research Intern, Material Science and Technology Division
+   * Research Intern, Material Science and Technology Division, May 2024 - Aug 2024
 *  Dragon Den Chinese Restaurant
-   Apr 2016 - Aug 2024
-   * Waitress
+   * Waitress, Apr 2016 - Aug 2024
  
 ## Technical Skills
 * Excel, MATLAB, Aspen, Basic Python, TIBCO Spotfire, MES, Six Sigma, CAD, 3D Printing, Soldering.
