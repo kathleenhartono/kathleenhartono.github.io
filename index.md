@@ -8,8 +8,6 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-    - label: "About Me" 
-      url: "/about/"
 excerpt: "Kathleen Hartono is a third-year Chemical Engineering undergraduate at Vanderbilt University focused on energy and materials for industrial applications. She enjoys working in team-based environments and bringing technical ideas into real-world settings."
 feature_row:
   - image_path: assets/img/Screenshot 2026-01-10 at 16.29.16.png
