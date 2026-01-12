@@ -47,6 +47,6 @@ The case leverages Fused Filament Fabrication, offering fast prototyping and cus
 * Polymaker. PolyFlex TPU95, 2024.
 
 # Interactive Model
-<iframe src="https://your-360-link-here" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028114d70829b51f74097?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="Phone Case Gallery" %}
