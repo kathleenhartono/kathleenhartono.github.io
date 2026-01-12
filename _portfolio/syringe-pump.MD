@@ -44,43 +44,65 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 |----------------|---------------------------|----------|
 | Stepper Motor  | NEMA 17 stepper motor     | 1        |
 | Stepper Driver | Motor driver module       | 1        |
-| Arduino        | Arduino microcontroller   | 1        |
+| Arduino        | Arduino UNO microcontroller   | 1        |
 | Power Supply   | 12V DC power supply       | 1        |
 | Lead Screw     | 2 mm pitch lead screw     | 1        |
 | Linear Rod     | Guide rod for carriage    | 1        |
 | Linear Bearing | Bearing for carriage      | 1        |
 | Syringes       | 10 mL and 20 mL           | 2        |
-| Push Buttons   | Momentary + latching      | 3        |
-| Limit Switch   | End-of-travel switch      | 1        |
 | Potentiometer  | Flow rate control         | 1        |
+| Push Buttons   | Momentary + latching      | 2      |
+| Limit Switch   | Switch      | 1        |
 | LEDs           | Red, green, blue          | 3        |
 | Breadboard     | Electronics mounting      | 1        |
-| Jumper Wires   | Electrical connections    | —        |
+| Jumper Wires   | Electrical connections    | Multiple        |
 
 ## 3D-Printed Parts
 
-| Part               | Material | Fabrication Method |
-|:------------------|:--------|:-----------------|
-| Enclosure          | PLA     | 3D printed        |
-| Enclosure Lid      | PLA     | 3D printed        |
-| Syringe End Support| PLA     | 3D printed        |
-| Carriage           | PLA     | 3D printed        |
-| Plunger Holder     | PLA     | 3D printed        |
-| Motor Mount        | PLA     | 3D printed        |
+| Part               | Quantity | 
+|:------------------|:--------|
+| Enclosure          | 1     | 
+| Enclosure Lid      | 1     |
+| Syringe End Support| 1     | 
+| Carriage           | 1     |      
+| Motor Mount        | 1     |
 
 # [Arduino Code](https://kathleenhartono.github.io/_pages/syringe-pump-arduino-code.md)
 
 ## Operating Instructions
 
-1. Insert a 10 mL or 20 mL syringe into the holder and ensure both ends are supported.
-2. Fill the syringe and remove air bubbles.
-3. Power the system using the 12V power supply.
-4. Upload the Arduino code and restart the system.
-5. Set the desired flow rate using the potentiometer.
-6. Press the start button to begin dispensing.
-7. Use the pause button to stop the pump.
-8. When the syringe is empty, the limit switch will stop the pump automatically.
-9. Turn off power before removing the syringe.
+1. Insert the syringe  
+   Place a 10 mL or 20 mL syringe into the holder, ensuring both ends are supported.
+
+2. Prepare the syringe  
+   Fill the syringe with fluid and remove any air bubbles by gently tapping and pushing the plunger.
+
+3. Power the system  
+   Connect the 12V power supply to the Arduino and motor driver.
+
+4. Upload Arduino code  
+   Open the Arduino IDE, upload the syringe pump code, and restart the system.
+
+5. Set flow rate  
+   Adjust the desired flow rate using the potentiometer. The current flow rate will display in the Arduino Serial Monitor if enabled.
+
+6. Start the pump  
+   Press the start button. The green LED will light, indicating the pump is running.
+
+7. Monitor the pump  
+   - Press the pause button to temporarily stop the pump; the yellow LED will light.  
+   - If the syringe becomes empty or the plunger reaches its limit, the limit switch stops the motor and the red LED will light. Refill or replace the syringe before restarting.
+
+8. Manual adjustment  
+   - Press the clockwise button to move the motor faster in the clockwise direction.  
+   - Press the counterclockwise button to retract the plunger or adjust the syringe position.  
+
+9. Power off  
+   Turn off the power supply and disconnect the wall plug. Ensure all LEDs are off before disassembly or cleaning.
+
+10. Remove syringe  
+    Once powered off and stopped, remove the syringe safely.
+
 
 
 # Interactive Fusion 360 Model
