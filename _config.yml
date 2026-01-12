@@ -191,8 +191,7 @@ defaults:
       comments: true
       share: true
       related: true
-feed:
-  path: false
+      feed: false
   # _pages
   - scope:
       path: "_pages"
