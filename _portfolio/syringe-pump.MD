@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump"
-excerpt: "A low-cost 3D-printed syringe pump delivering precise, adjustable flow with safety features and LED indicators."
+excerpt: "A low-cost 3D-printed syringe pump resulting in precise, adjustable flow with safety features and LED indicators."
 header:
   image: /assets/img/Slide-3.png
   teaser: /assets/img/Slide-3.png
@@ -16,27 +16,27 @@ This syringe pump is a low-cost, 3D-printed device designed to deliver precise a
 
 * Adjustable and Precise Flow Control
 
-The syringe pump allows users to set flow rates between 1 and 10 mL/min using either a potentiometer or values defined in the Arduino code. This provides both real-time manual control and repeatable programmed operation. The stepper motor and lead screw convert rotational motion into precise linear movement of the syringe plunger, ensuring consistent fluid delivery.
+The syringe pump allows users to set flow rates between 1 and 10 mL/min using either a potentiometer or values defined in the Arduino code. This provides both real-time manual control and repeatable programmed operation. The stepper motor and lead screw provide the motion for the syringe plunger's linear movement. 
 
-* Multi-Syringe Compatibility
+* Compatible with Multiple Syringes
 
-The design supports both 10 mL and 20 mL syringes without requiring tools. A custom 3D-printed end support securely holds syringes by their neck, allowing different syringe sizes to be swapped quickly while maintaining alignment and stability.
+The design supports both 10 mL and 20 mL syringes without extra tools. Due to the custom 3D-printed end support, the syringes are secured and are able to be swapped quickly without changes to alignment and stability.
 
 * Safety and Limit Protection
 
-A limit switch automatically stops the pump when the syringe reaches the end of its travel or runs out of fluid. This prevents over-driving the motor and protects both the syringe and mechanical components. LED indicators provide clear visual feedback for running (green), paused (yellow), and stopped (red) states.
+A limit switch automatically stops the pump when the syringe reaches the end or runs out of fluid. This prevents overdriving the motor and protects both the syringe and mechanical components. LED indicators provide visuals through colors: running (green), paused (yellow), and stopped (red).
 
 * Manual Positioning Controls
 
 Two momentary buttons allow the user to move the plunger forward or backward at high speed. This makes loading, unloading, and positioning the syringe quick and easy without manually turning the lead screw.
 
-* Fully Enclosed Electronics
+* Enclosed Electronic Components 
 
-All electronics, including the Arduino, motor driver, and power supply, are housed inside a protective enclosure. This prevents accidental contact with wiring and protects components from liquid exposure, making the device safer and more reliable during use.
+All electronics, including the Arduino, motor driver, and power supply, are inside a 3D printed enclosure. This prevents potential contact with wiring and protects components from liquid exposure, making the device safer and more reliable.
 
 * Compact, Integrated Design
 
-The motor, syringe holder, electronics, and control buttons are all built into a single compact unit. This makes the pump easy to transport, operate, and deploy on a benchtop without needing external modules.
+The motor, syringe holder, electronics, and control buttons are all built into a single unit. This makes the pump easy to transport and use without needing other external materials.
 
 ## Off-the-Shelf Parts
 
