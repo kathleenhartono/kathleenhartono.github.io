@@ -6,7 +6,7 @@ header:
   teaser: /assets/img/PhoneCase-1.png
 ---
 
-This 3D-printed TPU phone case protects devices while allowing access to buttons and a personalizable Polaroid holder. Its parametric design also makes for easy adjustments if phone models change. 
+This 3D-printed TPU phone case protects devices while allowing access to buttons and a personalizable Polaroid holder. Its parametric design also makes for easy adjustments if phone models changes. 
 
 ## Key Features
  
