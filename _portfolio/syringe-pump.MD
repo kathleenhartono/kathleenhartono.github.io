@@ -103,8 +103,6 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 10. Remove syringe  
     Once powered off and stopped, remove the syringe safely.
 
-The update 
-
 # Interactive Fusion 360 Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a48d6c4dbd4ad21763?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
