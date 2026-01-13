@@ -3,7 +3,7 @@ title: "Syringe Pump "
 excerpt: "A low-cost 3D-printed syringe pump resulting in precise, adjustable flow with safety features and LED indicators."
 header:
   image: /assets/img/Slide-3.png
-  teaser: /assets/img/Slide-3.png
+  teaser: /assets/img/Slide-3.png 
 gallery:
   - image_path: assets/img/Slide-3.png
   - image_path: assets/img/Slide-2.png
