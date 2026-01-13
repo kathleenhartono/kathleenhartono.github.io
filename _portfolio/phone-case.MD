@@ -9,7 +9,7 @@ header:
 This 3D-printed TPU phone case protects devices while allowing access to buttons and a personalizable Polaroid holder. Its parametric design also makes for easy adjustments if phone models change.
 
 ## Key Features
-
+ 
 * **Protective and Flexible Design**  
 TPU material provides resistance to drops while maintaining flexibility for easy installation. There is a 1.8 mm thickness to ensure protection without bulk.
 
