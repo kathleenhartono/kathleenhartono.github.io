@@ -1,6 +1,6 @@
 ---
 title: "3D-Printed Phone Case "
-excerpt: "A TPU phone case that offers protection and personalization through a Polaroid holder. "
+excerpt: "A TPU phone case that offers protection and personalization through a Polaroid holder."
 header: 
   image: /assets/img/PhoneCase-1.png
   teaser: /assets/img/PhoneCase-1.png
