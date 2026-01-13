@@ -32,7 +32,6 @@ Printed with TPU (PolyFlex™ TPU95) using elastic settings for layer adhesion, 
 |----------------|---------|
 | Phone Case Body | 1|
 | Polaroid Holder | 1   |
-YEs 
 
 
 # Interactive Model
