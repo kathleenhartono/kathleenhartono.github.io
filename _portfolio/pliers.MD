@@ -56,9 +56,7 @@ What combination of materials work well for print-in-place?
 
 {% include gallery caption="Syringe Pump Gallery" %}
 
-##References 
-Perform external research to determine other applications print-in-place has been used (link specific 
-examples). 
+## References 
 
 [Tom’s 3D Printing Filament Guide](https://toms3d.org/2024/12/06/try-these-filament-combinations-for-multi-material-and-supports/)
 
