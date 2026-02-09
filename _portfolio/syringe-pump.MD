@@ -38,34 +38,26 @@ All electronics, including the Arduino, motor driver, and power supply, are insi
 
 The motor, syringe holder, electronics, and control buttons are all built into a single unit. This makes the pump easy to transport and use without needing other external materials.
 
-## Off-the-Shelf Parts
+## Print Settings Summary
 
-| Part           | Description               | Quantity |
-|----------------|---------------------------|----------|
-| Stepper Motor  | NEMA 17 stepper motor     | 1        |
-| Stepper Driver | Motor driver module       | 1        |
-| Arduino        | Arduino UNO microcontroller   | 1        |
-| Power Supply   | 12V DC power supply       | 1        |
-| Lead Screw     | 2 mm pitch lead screw     | 1        |
-| Linear Rod     | Guide rod for carriage    | 1        |
-| Linear Bearing | Bearing for carriage      | 1        |
-| Syringes       | 10 mL and 20 mL           | 2        |
-| Potentiometer  | Flow rate control         | 1        |
-| Push Buttons   | Momentary + latching      | 2      |
-| Limit Switch   | Switch      | 1        |
-| LEDs           | Red, green, blue          | 3        |
-| Breadboard     | Electronics mounting      | 1        |
-| Jumper Wires   | Electrical connections    | Multiple        |
+| Category | Setting | PLA – Tips & Handles | TPU – Center Spring |
+|--------|--------|---------------------|--------------------|
+| **Vertical Shells** | Perimeters | 3 | 5 |
+|  | Wall Thickness (mm) | 0 | 0 |
+| **Horizontal Shells** | Top & Bottom Solid Layers | 3 | 0 |
+|  | Minimum Shell Thickness (mm) | 0.8 | 0 |
+| **Infill** | Infill Pattern | Rectilinear | Grid |
+|  | Top Infill Pattern | Monotonic | Monotonic |
+|  | Infill Density (%) | 15 | 31 |
+| **Quality** | Only One Perimeter on Top Surfaces | Enabled | Enabled |
+| **Overhangs** | Overhang Detection | Enabled | Enabled |
+| **Seam** | Seam Position | Corners | Corners |
+| **Advanced** | Fuzzy Skin | Disabled | Disabled |
+| **Supports** | Supports | Everywhere | Everywhere |
+| **Material** | Filament | PLA | TPU 95A |
+| **Printer Setup** | Printer | Voron 300 | Voron 300 |
+|  | Nozzle Diameter | 0.6 mm | 0.6 mm |
 
-## 3D-Printed Parts
-
-| Part               | Quantity | 
-|:------------------|:--------|
-| Enclosure          | 1     | 
-| Enclosure Lid      | 1     |
-| Syringe End Support| 1     | 
-| Carriage           | 1     |      
-| Motor Mount        | 1     |
 
 # [Arduino Code](https://kathleenhartono.github.io/_pages/syringe-pump-arduino-code.md)
 
