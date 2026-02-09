@@ -14,7 +14,7 @@ A 3D-printed pair of unique needle nose pliers designed for grabbing smaller com
 
 ## Print-In-Place parts
 
-** Print-In-Place parts** are 3D-printed assemblies that come off the printer already or nearly assembled and functional. This can include printing parts separately and putting them together later such as this case; however, there are built-in clearances that allow the parts to move after printing.
+**Print-In-Place parts** are 3D-printed assemblies that come off the printer already or nearly assembled and functional. This can include printing parts separately and putting them together later such as this case; however, there are built-in clearances that allow the parts to move after printing.
 
 **Material Combinations**
 - PLA (rigid) + TPU (flexible) — easy to print, good for press-fit or compliant joints where you want some separability and a flexible spring element.
