@@ -40,7 +40,7 @@ The motor, syringe holder, electronics, and control buttons are all built into a
 
 ## Print Settings Summary
 
-| Category | Setting | PLA – Tips & Handles | TPU – Center Spring |
+| Category | Setting | PLA – Tips & Handles | TPU – Center Piece |
 |--------|--------|---------------------|--------------------|
 | **Vertical Shells** | Perimeters | 3 | 5 |
 |  | Wall Thickness (mm) | 0 | 0 |
