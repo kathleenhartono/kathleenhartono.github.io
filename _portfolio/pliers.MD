@@ -1,5 +1,5 @@
 ---
-title: "Multiple Component Pliers " 
+title: "Multiple Material Pliers " 
 excerpt: "A functional pair of 3D printed pliers designed for gripping and reaching in tight spaces while using a combination of rigid and flexible parts."
 header:
   image: /assets/img/Slide-3.png
@@ -14,11 +14,18 @@ A 3D-printed pair of unique needle nose pliers designed for grabbing smaller com
 
 Print-In-Place parts. 
 What combination of materials work well for print-in-place? 
+Perform external research to determine other applications print-in-place has been used 
 
 ## Designing and the iterative process
-* Creating the spring component 
-* Retaining parts in the model 
-* Materials used: 
+### Materials used: A key point to these pliers are that they are made of multiple materials, allowing for both action and flexibility. 
+- PLA was used for the handles and jaw tips due to its stiffness, dimensional stability, and ease of printing. 
+- TPU was used for the central spring element because of its elasticity for smoother movements and resistance to fatigue, while enabling a self-returning motion. 
+
+### Creating the spring component: The TPU spring is critical to the plier's design because as it used, it repeatedly gets worn down. A grid infill with no horizontal shells was used to increase flexibility, with the infill oriented parallel to the perimeters for consistent deformation. The spring geometry was iteratively refined by adjusting infill pattern and density to balance flexibility, durability, and jaw opening range.
+
+### Retaining parts in the model:
+The pliers are assembled using interlocking, only pressing together features that require no additional tools. The geometries were designed with tolerances in mind and tested through multiple iterations to allow easy hand assembly while maintaining secure retention. Parametric modeling in Fusion 360 was used to efficiently adjust dimensions between design iterations and achieve proper alignment and fit.
+
 
 ## Plier Specifications 
 * Jaw length: 
@@ -28,7 +35,7 @@ What combination of materials work well for print-in-place?
 
 | Category | Setting | PLA – Tips & Handles | TPU – Center Piece |
 |--------|--------|---------------------|--------------------|
-| **Vertical Shells** | Perimeters | 3 | 5 |
+| **Vertical Shells** | Perimeters | 3 | 4 |
 |  | Wall Thickness (mm) | 0 | 0 |
 | **Horizontal Shells** | Top & Bottom Solid Layers | 3 | 0 |
 |  | Minimum Shell Thickness (mm) | 0.8 | 0 |
@@ -45,16 +52,18 @@ What combination of materials work well for print-in-place?
 |  | Nozzle Diameter | 0.6 mm | 0.6 mm |
 
 ## Assembly & Operating Instructions
-1. 
-2. 
-3. 
+1. After printing is complete on the Voron 300 printers using the specified print settings, verify that all components are present: two PLA handles, two PLA jaw tips, and one TPU center spring.
+2. Orient the TPU center so that it forms a diamond shape, which allows the flexible element to function as a spring.
+3. Insert the PLA jaw tips into the appropriate cavities of the TPU center, ensuring that both tips are aligned symmetrically along the center so the jaws meet evenly and are capable of gripping small components.
+4. Attach the PLA handles by pressing them into the remaining cavities, making sure the handles are oriented outward to provide a comfortable grip for the user and proper actuation of the pliers.
+5. Once assembled, the flexibility of the TPU center allows the pliers to maintain their position. When no force is applied, the TPU spring returns the pliers to their default position.
 
 
 
 # Interactive Fusion 360 Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281155c06b6c92d119f0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Syringe Pump Gallery" %}
+{% include gallery caption="Pliers Gallery" %}
 
 ## References 
 
@@ -62,5 +71,5 @@ What combination of materials work well for print-in-place?
 
 [Formlab's Guide to 3D Printing Materials: Types, Applications, and Properties](https://formlabs.com/blog/3d-printing-materials/?srsltid=AfmBOorgmIdkEi4M9s1keijOKeIPAqEbPcNzDKplmmMmlBabkTcFKH9h)
 
-[Formlabs's How to 3D Print Interlocking Parts and Assemblies](https://formlabs.com/blog/how-to-3d-print-interlocking-joints/?srsltid=AfmBOor_AacUit1dFaYq4Ng-rpGXmWWnX_Om8wYyvyozNJ-E8P7zEpGS)
+[Formlab's How to 3D Print Interlocking Parts and Assemblies](https://formlabs.com/blog/how-to-3d-print-interlocking-joints/?srsltid=AfmBOor_AacUit1dFaYq4Ng-rpGXmWWnX_Om8wYyvyozNJ-E8P7zEpGS)
 
