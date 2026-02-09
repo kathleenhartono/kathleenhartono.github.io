@@ -10,7 +10,7 @@ gallery:
   - image_path: assets/img/Slide-4.png
    
 ---
-A 3D-printed pair of unique needle nose pliers designed for gripping and manipulating small components in tight spaces. The pliers use rigid PLA handles and jaws combined with a flexible TPU spring element that provides self-returning motion when the tool is released. The compliant spring eliminates the need for traditional metal hardware while enabling smooth, repeatable operation. The design is optimized for additive manufacturing and can be produced either as a print-in-place mechanism or as a simple three-part press-fit assembly requiring no tools. The pliers are sized to grip through-hole resistors and other small electronic components reliably.
+A 3D-printed pair of unique needle nose pliers designed for grabbing smaller components such as resistors. The pliers consist of rigid PLA components, two handles and jaws each, and a flexible TPU center acting as a spring that allows the pliers to return to their original state once released. Instead of requiring additional parts to assemble the pliers, the design is based on a print-in-place mechanism that allows the five parts to be assembled without tools by pressing them into each other like puzzle pieces. 
 
 Print-In-Place parts. 
 What combination of materials work well for print-in-place? 
@@ -39,12 +39,15 @@ What combination of materials work well for print-in-place?
 | **Overhangs** | Overhang Detection | Enabled | Enabled |
 | **Seam** | Seam Position | Corners | Corners |
 | **Advanced** | Fuzzy Skin | Disabled | Disabled |
-| **Supports** | Supports | Everywhere |
+| **Supports** | Supports | Everywhere | Everywhere | 
 | **Material** | Filament | PLA | TPU 95A |
 | **Printer Setup** | Printer | Voron 300 | Voron 300 |
 |  | Nozzle Diameter | 0.6 mm | 0.6 mm |
 
-## Operating Instructions
+## Assembly & Operating Instructions
+1. 
+2. 
+3. 
 
 
 
@@ -56,4 +59,7 @@ What combination of materials work well for print-in-place?
 ##References 
 Perform external research to determine other applications print-in-place has been used (link specific 
 examples). 
+[Tom’s 3D Printing Filament Guide](https://toms3d.org/2024/12/06/try-these-filament-combinations-for-multi-material-and-supports/)
+[Formlab's Guide to 3D Printing Materials: Types, Applications, and Properties](https://formlabs.com/blog/3d-printing-materials/?srsltid=AfmBOorgmIdkEi4M9s1keijOKeIPAqEbPcNzDKplmmMmlBabkTcFKH9h)
+[Formlabs's How to 3D Print Interlocking Parts and Assemblies](https://formlabs.com/blog/how-to-3d-print-interlocking-joints/?srsltid=AfmBOor_AacUit1dFaYq4Ng-rpGXmWWnX_Om8wYyvyozNJ-E8P7zEpGS)
 
