@@ -39,7 +39,7 @@ What combination of materials work well for print-in-place?
 | **Overhangs** | Overhang Detection | Enabled | Enabled |
 | **Seam** | Seam Position | Corners | Corners |
 | **Advanced** | Fuzzy Skin | Disabled | Disabled |
-| **Supports** | Supports | Everywhere | Everywhere |
+| **Supports** | Supports | Everywhere |
 | **Material** | Filament | PLA | TPU 95A |
 | **Printer Setup** | Printer | Voron 300 | Voron 300 |
 |  | Nozzle Diameter | 0.6 mm | 0.6 mm |
