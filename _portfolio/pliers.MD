@@ -12,9 +12,33 @@ gallery:
 ---
 A 3D-printed pair of unique needle nose pliers designed for grabbing smaller components such as resistors. The pliers consist of rigid PLA components, two handles and jaws each, and a flexible TPU center acting as a spring that allows the pliers to return to their original state once released. Instead of requiring additional parts to assemble the pliers, the design is based on a print-in-place mechanism that allows the five parts to be assembled without tools by pressing them into each other like puzzle pieces. 
 
-Print-In-Place parts. 
-What combination of materials work well for print-in-place? 
-Perform external research to determine other applications print-in-place has been used 
+## Print-In-Place parts
+
+** Print-In-Place parts** are 3D-printed assemblies that come off the printer already assembled and functional. Instead of printing parts separately and putting them together later, print-in-place designs include multiple components printed at once, with small built-in clearances that allow the parts to move relative to each other immediately after printing.
+
+**Material Combinations**
+PLA (rigid) + TPU (flexible) — easy to print, good for press-fit or compliant joints where you want some separability and a flexible spring element.
+
+PETG + TPU / ABS + TPU — stronger welds between rigid and flexible parts (useful when you want the flexible element to be a permanent bonded feature).
+
+Single-material print-in-place with geometry (e.g., PETG, PLA) — use careful clearances and compliant geometry (living hinges, flexure joints) when only one material is available.
+
+Powder processes (SLS Nylon + TPU powder) — excellent for robust, true print-in-place assemblies (chain mail, fully articulated parts) because the unfused powder supports moving features during printing.
+Rigid + flexible (PLA + TPU) gives the best of both worlds: stiff structural parts and an elastic spring or hinge that returns reliably. TPU’s high elongation and fatigue resistance make it ideal for compliant elements.
+
+PETG/ABS + TPU tends to bond more permanently to TPU than PLA does — useful when you want a welded flexible feature instead of a removable press-fit.
+
+SLS (Nylon) or SLA (resin elastomers) provide tighter tolerances, isotropic strength, or powder support, which makes complex, fully articulated print-in-place parts more reliable at production scale.
+
+** Other applications of print-in-place parts** 
+- Adjustable wrenches
+- Toys (i.e. snakes with moving segments) 
+- Hinges
+- Charger wrappers
+- Gears
+
+
+
 
 ## Designing and the iterative process
 ### Materials used: A key point to these pliers are that they are made of multiple materials, allowing for both action and flexibility. 
@@ -24,7 +48,7 @@ Perform external research to determine other applications print-in-place has bee
 ### Creating the spring component: The TPU spring is critical to the plier's design because as it used, it repeatedly gets worn down. A grid infill with no horizontal shells was used to increase flexibility, with the infill oriented parallel to the perimeters for consistent deformation. The spring geometry was iteratively refined by adjusting infill pattern and density to balance flexibility, durability, and jaw opening range.
 
 ### Retaining parts in the model:
-The pliers are assembled using interlocking, only pressing together features that require no additional tools. The geometries were designed with tolerances in mind and tested through multiple iterations to allow easy hand assembly while maintaining secure retention. Parametric modeling in Fusion 360 was used to efficiently adjust dimensions between design iterations and achieve proper alignment and fit.
+The pliers are assembled using interlocking, only pressing together features that require no additional tools, focusing on the use of the dovetail joints. The geometries were designed with tolerances in mind and tested through multiple iterations to allow easy hand assembly while maintaining secure retention. Parametric modeling in Fusion 360 was used to efficiently adjust dimensions between design iterations and achieve proper alignment and fit.
 
 
 ## Plier Specifications 
