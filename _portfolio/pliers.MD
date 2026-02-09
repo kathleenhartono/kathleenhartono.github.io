@@ -12,11 +12,11 @@ gallery:
 ---
 A 3D-printed pair of unique needle nose pliers designed for grabbing smaller components such as resistors. The pliers consist of rigid PLA components, two handles and jaws each, and a flexible TPU center acting as a spring that allows the pliers to return to their original state once released. Instead of requiring additional parts to assemble the pliers, the design is based on a print-in-place mechanism that allows the five parts to be assembled without tools by pressing them into each other like puzzle pieces. 
 
-## Print-In-Place parts
+## Print-In-Place Parts
 
 **Print-In-Place parts** are 3D-printed assemblies that come off the printer already or nearly assembled and functional. This can include printing parts separately and putting them together later such as this case; however, there are built-in clearances that allow the parts to move after printing.
 
-**Material Combinations**
+## Material Combinations
 - PLA (rigid) + TPU (flexible) — easy to print, good for press-fit or compliant joints where you want some separability and a flexible spring element.
 
 - PETG + TPU / ABS + TPU — stronger welds between rigid and flexible parts (useful when you want the flexible element to be a permanent bonded feature).
@@ -27,7 +27,7 @@ A 3D-printed pair of unique needle nose pliers designed for grabbing smaller com
 
 - SLS (Nylon) or SLA (resin elastomers) provide tighter tolerances, isotropic strength, or powder support, which makes complex, fully articulated print-in-place parts more reliable at production scale.
 
-**Other applications of print-in-place parts** 
+**Other Applications of Print-in-Place Parts** 
 - Adjustable wrenches
 - Toys (i.e. snakes with moving segments) 
 - Hinges
@@ -35,20 +35,22 @@ A 3D-printed pair of unique needle nose pliers designed for grabbing smaller com
 - Gears
 
 
-## Designing and the iterative process
+## Designing and the Iterative Process
 ### Materials used
 A key point to these pliers are that they are made of multiple materials, allowing for both action and flexibility. 
 - PLA was used for the handles and jaw tips due to its stiffness, dimensional stability, and ease of printing. 
 - TPU was used for the central spring element because of its elasticity for smoother movements and resistance to fatigue, while enabling a self-returning motion. 
 
-### Creating the spring component
+### Creating the Spring Component
 The TPU spring is critical to the plier's design because as it used, it repeatedly gets worn down. A grid infill with no horizontal shells was used to increase flexibility, with the infill oriented parallel to the perimeters for consistent deformation. The spring geometry was iteratively refined by adjusting infill pattern and density to balance flexibility, durability, and jaw opening range.
 
-### Retaining parts in the model
+### Retaining Parts in the Model
 The pliers are assembled using interlocking, only pressing together features that require no additional tools, focusing on the use of the dovetail joints. The geometries were designed with tolerances in mind and tested through multiple iterations to allow easy hand assembly while maintaining secure retention. Parametric modeling in Fusion 360 was used to efficiently adjust dimensions between design iterations and achieve proper alignment and fit.
 
 
 ## Plier Specifications 
+* Parts: 
+* Maximum Jaw Opening: 
 * Jaw length: 
 * Jaw capacity: 
 
@@ -78,7 +80,6 @@ The pliers are assembled using interlocking, only pressing together features tha
 3. Insert the PLA jaw tips into the appropriate cavities of the TPU center, ensuring that both tips are aligned symmetrically along the center so the jaws meet evenly and are capable of gripping small components.
 4. Attach the PLA handles by pressing them into the remaining cavities, making sure the handles are oriented outward to provide a comfortable grip for the user and proper actuation of the pliers.
 5. Once assembled, the flexibility of the TPU center allows the pliers to maintain their position. When no force is applied, the TPU spring returns the pliers to their default position.
-
 
 
 # Interactive Fusion 360 Model
