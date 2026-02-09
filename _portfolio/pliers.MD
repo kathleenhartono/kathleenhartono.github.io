@@ -27,7 +27,7 @@ A 3D-printed pair of unique needle nose pliers designed for grabbing smaller com
 
 - SLS (Nylon) or SLA (resin elastomers) provide tighter tolerances, isotropic strength, or powder support, which makes complex, fully articulated print-in-place parts more reliable at production scale.
 
-** Other applications of print-in-place parts** 
+**Other applications of print-in-place parts** 
 - Adjustable wrenches
 - Toys (i.e. snakes with moving segments) 
 - Hinges
