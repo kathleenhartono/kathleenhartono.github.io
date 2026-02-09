@@ -12,9 +12,8 @@ gallery:
 ---
 A 3D-printed pair of unique needle nose pliers designed for gripping and manipulating small components in tight spaces. The pliers use rigid PLA handles and jaws combined with a flexible TPU spring element that provides self-returning motion when the tool is released. The compliant spring eliminates the need for traditional metal hardware while enabling smooth, repeatable operation. The design is optimized for additive manufacturing and can be produced either as a print-in-place mechanism or as a simple three-part press-fit assembly requiring no tools. The pliers are sized to grip through-hole resistors and other small electronic components reliably.
 
-Description of the project with a blurb about print-in-place parts. Perform external 
-research to determine other applications print-in-place has been used (link specific 
-examples). What combination of materials work well for print-in-place? 
+Print-In-Place parts. 
+What combination of materials work well for print-in-place? 
 
 ## Designing and the iterative process
 * Creating the spring component 
@@ -53,4 +52,8 @@ examples). What combination of materials work well for print-in-place?
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281155c06b6c92d119f0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="Syringe Pump Gallery" %}
+
+##References 
+Perform external research to determine other applications print-in-place has been used (link specific 
+examples). 
 
