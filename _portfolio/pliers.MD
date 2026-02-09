@@ -59,7 +59,10 @@ What combination of materials work well for print-in-place?
 ##References 
 Perform external research to determine other applications print-in-place has been used (link specific 
 examples). 
+
 [Tom’s 3D Printing Filament Guide](https://toms3d.org/2024/12/06/try-these-filament-combinations-for-multi-material-and-supports/)
+
 [Formlab's Guide to 3D Printing Materials: Types, Applications, and Properties](https://formlabs.com/blog/3d-printing-materials/?srsltid=AfmBOorgmIdkEi4M9s1keijOKeIPAqEbPcNzDKplmmMmlBabkTcFKH9h)
+
 [Formlabs's How to 3D Print Interlocking Parts and Assemblies](https://formlabs.com/blog/how-to-3d-print-interlocking-joints/?srsltid=AfmBOor_AacUit1dFaYq4Ng-rpGXmWWnX_Om8wYyvyozNJ-E8P7zEpGS)
 
