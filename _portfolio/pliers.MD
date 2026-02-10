@@ -30,7 +30,7 @@ A 3D-printed pair of unique needle nose pliers designed for grabbing smaller com
 
 * [Toys (i.e. snakes with moving segments)](https://www.make.toys/toys/flexi_snake_0)
 
-* [Hinges] (https://www.printables.com/model/49060-hinge-print-in-place-optimized-for-3d-printing)
+* [Hinges](https://www.printables.com/model/49060-hinge-print-in-place-optimized-for-3d-printing)
 
 ## Designing and the Iterative Process
 ### Materials used
