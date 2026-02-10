@@ -83,7 +83,7 @@ The pliers are assembled using interlocking, only pressing together features tha
 
 
 # Interactive Fusion 360 Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281155c06b6c92d119f0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028115406b2926afd1ffa?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
 {% include gallery caption="Pliers Gallery" %}
 
