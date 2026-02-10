@@ -2,13 +2,13 @@
 title: "Multiple Material Pliers " 
 excerpt: "A functional pair of 3D printed pliers designed for gripping and reaching in tight spaces while using a combination of rigid and flexible parts."
 header:
-  image: /assets/img/Slide-3.png
-  teaser: /assets/img/Slide-3.png 
+  image: /assets/img/IMG_7539.JPG
+  teaser: /assets/img/IMG_7539.JPG
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
-  - image_path: assets/img/Pliers_in_use.gif
+  - image_path: assets/img/IMG_7531.JPG
+  - image_path: assets/img/IMG_7532.JPG
+  - image_path: assets/img/IMG_7530.JPG
+  - image_path: assets/img/Untitled design (4).gif
    
 ---
 A 3D-printed pair of unique needle nose pliers designed for grabbing smaller components such as resistors. The pliers consist of rigid PLA components, two handles and jaws each, and a flexible TPU center acting as a spring that allows the pliers to return to their original state once released. Instead of requiring additional parts to assemble the pliers, the design is based on a print-in-place mechanism that allows the five parts to be assembled without tools by pressing them into each other like puzzle pieces. 
