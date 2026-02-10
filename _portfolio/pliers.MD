@@ -18,28 +18,21 @@ A 3D-printed pair of unique needle nose pliers designed for grabbing smaller com
 **Print-In-Place parts** are 3D-printed assemblies that come off the printer already or nearly assembled and functional. This can include printing parts separately and putting them together later such as this case; however, there are built-in clearances that allow the parts to move after printing.
 
 ## Material Combinations
-- PLA (rigid) + TPU (flexible) — easy to print, good for press-fit or compliant joints where you want some separability and a flexible spring element.
+- PLA [rigid] + TPU [flexible]: easy to print, good for press-fit or compliant joints where there could be some separability and a flexible spring element.
 
-- PETG + TPU / ABS + TPU — stronger welds between rigid and flexible parts (useful when you want the flexible element to be a permanent bonded feature).
+- PETG [rigid] + TPU / ABS [rigid] + TPU [flexible]: stronger welds between rigid and flexible parts. This may be more useful when there is a need for the flexible element to be a permanently bonded feature instead of a removable press-fit.
 
-- Single-material print-in-place with geometry (e.g., PETG, PLA) — use careful clearances and compliant geometry (living hinges, flexure joints) when only one material is available.
-
-- PETG/ABS + TPU tends to bond more permanently to TPU than PLA does — useful when you want a welded flexible feature instead of a removable press-fit.
-
-- SLS (Nylon) or SLA (resin elastomers) provide tighter tolerances, isotropic strength, or powder support, which makes complex, fully articulated print-in-place parts more reliable at production scale.
+- Single-material (PETG or PLA) with unique geometry: must be more careful with clearances and compliant geometry such as hinges or joints when only one material is available.
 
 **Other Applications of Print-in-Place Parts** 
-- Adjustable wrenches
-- Toys (i.e. snakes with moving segments) 
-- Hinges
-- Charger wrappers
-- Gears
-
+-[Adjustable wrenches](https://www.instructables.com/3D-Printed-Print-In-Place-Adjustable-Wrench/)
+-[Toys (i.e. snakes with moving segments)](https://www.make.toys/toys/flexi_snake_0)
+-[Hinges] (https://www.printables.com/model/49060-hinge-print-in-place-optimized-for-3d-printing)
 
 ## Designing and the Iterative Process
 ### Materials used
 A key point to these pliers are that they are made of multiple materials, allowing for both action and flexibility. 
-- PLA was used for the handles and jaw tips due to its stiffness, dimensional stability, and ease of printing. 
+- PLA was used for the handles and jaw tips due to its stiffness, dimensional stability, and ease of printing. The marble PLA adds to the aesthetic of the pliers, somewhat mimicking the metal coloring of pliers. 
 - TPU was used for the central spring element because of its elasticity for smoother movements and resistance to fatigue, while enabling a self-returning motion. 
 
 ### Creating the Spring Component
@@ -96,3 +89,4 @@ The pliers are assembled using interlocking, only pressing together features tha
 
 [Formlab's How to 3D Print Interlocking Parts and Assemblies](https://formlabs.com/blog/how-to-3d-print-interlocking-joints/?srsltid=AfmBOor_AacUit1dFaYq4Ng-rpGXmWWnX_Om8wYyvyozNJ-E8P7zEpGS)
 
+Examples from Instructables, Make Toys, Printables. 
