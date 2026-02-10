@@ -5,11 +5,11 @@ header:
   image: /assets/img/IMG_7539.JPG
   teaser: /assets/img/IMG_7539.JPG
 gallery:
-  - image_path: assets/img/Untitled design (8).png
   - image_path: assets/img/IMG_7531.JPG
   - image_path: assets/img/IMG_7532.JPG
   - image_path: assets/img/IMG_7530.JPG
   - image_path: assets/img/Untitled design (4).gif
+  - image_path: assets/img/IMG_7540.JPG
    
 ---
 A 3D-printed pair of unique needle nose pliers designed for grabbing smaller components such as resistors. The pliers consist of rigid PLA components, two handles and jaws each, and a flexible TPU center acting as a spring that allows the pliers to return to their original state once released. Instead of requiring additional parts to assemble the pliers, the design is based on a print-in-place mechanism that allows the five parts to be assembled without tools by pressing them into each other like puzzle pieces. 
