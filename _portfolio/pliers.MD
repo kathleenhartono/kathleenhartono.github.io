@@ -26,9 +26,9 @@ A 3D-printed pair of unique needle nose pliers designed for grabbing smaller com
 - Single-material (PETG or PLA) with unique geometry: must be more careful with clearances and compliant geometry such as hinges or joints when only one material is available.
 
 **Other Applications of Print-in-Place Parts** 
--[Adjustable wrenches](https://www.instructables.com/3D-Printed-Print-In-Place-Adjustable-Wrench/)
--[Toys (i.e. snakes with moving segments)](https://www.make.toys/toys/flexi_snake_0)
--[Hinges] (https://www.printables.com/model/49060-hinge-print-in-place-optimized-for-3d-printing)
+*[Adjustable wrenches](https://www.instructables.com/3D-Printed-Print-In-Place-Adjustable-Wrench/)
+*[Toys (i.e. snakes with moving segments)](https://www.make.toys/toys/flexi_snake_0)
+*[Hinges] (https://www.printables.com/model/49060-hinge-print-in-place-optimized-for-3d-printing)
 
 ## Designing and the Iterative Process
 ### Materials used
