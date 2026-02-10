@@ -5,10 +5,10 @@ header:
   image: /assets/img/IMG_7539.JPG
   teaser: /assets/img/IMG_7539.JPG
 gallery:
+  - image_path: assets/img/IMG_7540.JPG
   - image_path: assets/img/IMG_7531.JPG
   - image_path: assets/img/IMG_7532.JPG
   - image_path: assets/img/IMG_7530.JPG
-  - image_path: assets/img/IMG_7540.JPG
   - image_path: assets/img/Untitled design (4).gif
    
 ---
