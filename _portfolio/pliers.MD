@@ -8,6 +8,7 @@ gallery:
   - image_path: assets/img/Slide-3.png
   - image_path: assets/img/Slide-2.png
   - image_path: assets/img/Slide-4.png
+  - image_path: assets/img/Pliers_in_use.gif
    
 ---
 A 3D-printed pair of unique needle nose pliers designed for grabbing smaller components such as resistors. The pliers consist of rigid PLA components, two handles and jaws each, and a flexible TPU center acting as a spring that allows the pliers to return to their original state once released. Instead of requiring additional parts to assemble the pliers, the design is based on a print-in-place mechanism that allows the five parts to be assembled without tools by pressing them into each other like puzzle pieces. 
@@ -49,10 +50,10 @@ The pliers are assembled using interlocking, only pressing together features tha
 
 
 ## Plier Specifications 
-* Parts: 
-* Maximum Jaw Opening: 
-* Jaw length: 
-* Jaw capacity: 
+* Parts: 4 PLA (2 jaws, 2 handles) + 1 TPU (center) 
+* Inner Jaw Length (from tip to joint): 58 mm 
+* Natural Maximum Jaw Opening at Tip: 3 mm 
+* Potential Jaw Capacity (if spread from handles): 20 cm 
 
 ## Print Settings 
 
