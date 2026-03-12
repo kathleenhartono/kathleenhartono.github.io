@@ -8,7 +8,7 @@ header:
 
 This microfludic device, created through VPP printing, allows particles to be sorted based on size due to Pinch Flow Fractionation (PFF). Due to detailed reisn printing, a mold of the device is created and then finalized with PDMS casting. As the particles flow into different streams based of fludic mechanics, the design is flexiable and scalable to fit various sized particles and different solutions. 
 
-# Introduction
+#Introduction
   Pinch flow fractionation, also know as PFF, is a technique used to separate particles, by size, which is useful for many different applications. It is a passive microfluidic technique, meaning it does not require external forces to separate particles.
 
   PFF works using a pinched section which is a narrow channel where a buffer flow will compress the particle stream, forcing the particles toward one side of the channel. Because particles have different sizes, larger particles cannot move as close to the wall as smaller particles. 
@@ -26,7 +26,7 @@ With the use of PFF, these small blood cells are able to be tested without clogg
   since a template was given with set plan on the sizes and the device, these were constraints or things that would be accounted for during the design
 the project was difficult to understand at first, with the need to refresh on fludic mechanics and terminology. Therefore, a lot of reserach was needed. Especially when looking for something in particular like a PFF design, many papers will not upfront will not explain all of the detail and even have missing parts so that the experiment cannot be done again in a replicate. This made it difficult to find a design that was unquie while having evidence of something similar working prior since equation have to be told to estimate the outlet height. 
 2. 
-## Design Approach 
+##Design Approach 
 • Did you choose a symmetric or asymmetric approach?
 A symmetric approach was taken due to the difficulty of that the asymmetric design would be since there are other factors that need to be taken account for such as the flow rate, elevation of the device and more had the asymmetric approach been done. Also, with the symmetric design, it is more predictable to understand the flow of the particles and to calculate where they could end. 
 ##Outlet Boundaries 
@@ -42,7 +42,7 @@ o What would you change about your outlet geometry if you could iterate on this
 design?
 This design was based on the paper does by the person's name. However, the dimensions of the base that was used was longer than the one provided in class. since this was the case, the design had to be readjusted and calculated due to the given constraints. A possible change is to have a longer base if possible in order to replicate the design to its fullist potential. The efficient PFF does this with the piece within the area; however, without being able to previous test the fludic device, it was difficult to know whether the particles would follow the equations provided. With the experiment changing from what is mathematically proven, the changes could be detrimental to the design and restrict the large particles, change bulk. Once the edit of the extra effective material is changed to match the dimensions and with tests of the first, the next iteration based on that. 
 
-#Discussion
+# Discussion
 • Why resin printing compared to other manufacturing techniques?
 • How could your design be scaled up or modified to handle a wider range of particle
 sizes?
