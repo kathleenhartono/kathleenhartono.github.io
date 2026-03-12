@@ -47,6 +47,6 @@ o Embedded YouTube video of the device working.
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811ccc104ca4ac1f161?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # References 
-Ashrafizadeh, S. N., Zare, M., & Khatibi, M. (2025). [A comprehensive review of pinch flow fractionation in microfluidics: From principles to practical applications. Chemical Engineering and Processing: Process Intensification, 208, 110087.] (https://doi.org/10.1016/j.cep.2024.110087)
+[Ashrafizadeh, S. N., Zare, M., & Khatibi, M. (2025). A comprehensive review of pinch flow fractionation in microfluidics: From principles to practical applications. Chemical Engineering and Processing: Process Intensification, 208, 110087.] (https://doi.org/10.1016/j.cep.2024.110087)
 
-Torres‑Castro, K., Acuña‑Umaña, K., Lesser‑Rojas, L., & Reyes, D. R. (2023). [Microfluidic blood separation: Key technologies and critical figures of merit. Micromachines, 14(11), 2117.] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10672873/)
+[Torres‑Castro, K., Acuña‑Umaña, K., Lesser‑Rojas, L., & Reyes, D. R. (2023). Microfluidic blood separation: Key technologies and critical figures of merit. Micromachines, 14(11), 2117.] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10672873/)
