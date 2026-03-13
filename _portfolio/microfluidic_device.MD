@@ -50,13 +50,13 @@ Since the overall device dimensions were fixed, both the inlets and outlets were
 
 Once the overall geometry was defined, the streamline relationship for pinch flow fractionation was used to determine the vertical outlet positions from the bottom of the design space:
 
-y_PFF = (w_b / w_p) r_p
+y<sub>PFF</sub> = (w<sub>b</sub> / w<sub>p</sub>) r<sub>p</sub>
 
-where w_b is the width of the broad section, w_p is the width of the pinched section, and r_p represents the particle radius. This equation was used to estimate the expected particle streamlines after the flow expands into the broad section. The small-particle and large-particle outlets were positioned according to these predicted streamline locations, while the small-particle outlet was slightly adjusted to maintain the required spacing between outlets.
+where w<sub>b is the width of the broad section, w<sub>p is the width of the pinched section, and r<sub>p represents the particle radius. This equation was used to estimate the expected particle streamlines after the flow expands into the broad section. The small-particle and large-particle outlets were positioned according to these predicted streamline locations, while the small-particle outlet was slightly adjusted to maintain the required spacing between outlets.
 
 The buffer outlet had less strict positional requirements as long as the 11 mm spacing constraint was satisfied. However, it was intentionally designed to be shorter and wider so that it would have lower hydraulic resistance and naturally carry a larger fraction of the total flow. The outlet locations were scaled based on Figure 2 from Vig and Kristensen (2008) to account for the difference in particle sizes used in the reference study compared to those required in this assignment. Since the particles used in this project were approximately half the size range used in the paper, the geometry was scaled accordingly using the enhanced PFF relationship:
 
-y_EPFF = ((R_E / R_s) + 1) (d_E / w_p) r_p
+y<sub>EPFF</sub> = ((R<sub>E</sub> / R<sub>s</sub>) + 1)(d<sub>E</sub> / w<sub>p</sub>) r<sub>p</sub>
 
 This scaling allowed the outlet boundaries to better match the predicted particle trajectories for the particle sizes used in the experiment.
 
