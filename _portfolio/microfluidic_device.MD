@@ -43,6 +43,23 @@ Rs
 + 1 dE
 wp
 rp.
+
+The inlet sizing was initially based on the original design model; however, the overall device length and available design area were determined first. The reference design from the literature used different device dimensions, and because the assignment required a 3 mm buffer from the device edge and 11 mm center-to-center spacing between inlets and outlets, the design needed to be scaled to meet these constraints. Once the device boundaries were established, the outlet positions were adjusted so that the small-particle and large-particle outlets aligned with the predicted particle streamlines, while also maintaining the required spacing between outlets.
+
+Since the overall device dimensions were fixed, both the inlets and outlets were positioned to satisfy the required design constraints. The inlet geometry was inspired by the design presented by Vig and Kristensen (2008). However, because of the spacing limitations in the assignment model, the inlet angle was increased to approximately 82.9° compared to the 39.9° angle in the original design. Increasing this angle allowed the inlets to be positioned farther apart while still directing the streams toward the pinch region. Although this slightly shortened the distance the fluids travel before mixing, it preserved the key design features associated with enhanced PFF behavior described in the literature.
+
+Once the overall geometry was defined, the streamline relationship for pinch flow fractionation was used to determine the vertical outlet positions from the bottom of the design space:
+
+y_PFF = (w_b / w_p) r_p
+
+where w_b is the width of the broad section, w_p is the width of the pinched section, and r_p represents the particle radius. This equation was used to estimate the expected particle streamlines after the flow expands into the broad section. The small-particle and large-particle outlets were positioned according to these predicted streamline locations, while the small-particle outlet was slightly adjusted to maintain the required spacing between outlets.
+
+The buffer outlet had less strict positional requirements as long as the 11 mm spacing constraint was satisfied. However, it was intentionally designed to be shorter and wider so that it would have lower hydraulic resistance and naturally carry a larger fraction of the total flow. The outlet locations were scaled based on Figure 2 from Vig and Kristensen (2008) to account for the difference in particle sizes used in the reference study compared to those required in this assignment. Since the particles used in this project were approximately half the size range used in the paper, the geometry was scaled accordingly using the enhanced PFF relationship:
+
+y_EPFF = ((R_E / R_s) + 1) (d_E / w_p) r_p
+
+This scaling allowed the outlet boundaries to better match the predicted particle trajectories for the particle sizes used in the experiment.
+
 ## Imbalanced Flow 
 The flow balancing issue occurs because the buffer stream carries a much larger portion of the total flow than the particle streams. To address this, the channel widths and lengths were adjusted to control the hydraulic resistance in each outlet. The particle outlet channels were made longer and narrower, which increases resistance and prevents excess buffer flow from diverting into those outlets.
 
@@ -57,7 +74,11 @@ Additionally, because the device could not be tested prior to fabrication, it wa
 • How could your design be scaled up or modified to handle a wider range of particle
 sizes?
 • What factors set the lower limit on the particle size that can be separated with pinchflow fractionation?
+Resin printing was chosen because it allows for high-resolution fabrication of small features, which is necessary for creating precise microfluidic channel geometries. Compared to techniques such as FDM printing or traditional machining, resin printing can produce smoother surfaces and finer details, which improves the quality of the PDMS mold and helps ensure proper bonding to the glass slide. Additionally, resin printing enables rapid prototyping, allowing multiple iterations of a design to be produced quickly and at relatively low cost.
 
+The design could be modified to handle a wider range of particle sizes by adjusting the width of the pinched section and the broad section of the channel. Since particle separation in PFF depends on the relationship between particle diameter and the pinch width, increasing or decreasing this width would shift the particle streamline positions. Another approach would be to add additional outlet channels, allowing more particle size ranges to be separated. The channel lengths and widths could also be adjusted to maintain proper flow resistance and streamline separation for different particle sizes.
+
+The lower limit of particle size that can be separated using PFF is mainly determined by the resolution of the fabricated microchannels and the surface roughness of the device. If the particles are smaller than the surface roughness of the channel walls, their trajectories become unpredictable and reliable separation becomes difficult. In addition, Brownian motion becomes more significant for very small particles, which can cause particles to deviate from their expected streamlines. Finally, the precision of the manufacturing process, such as the minimum feature size of the resin printer, limits how small the pinch channel can be fabricated and therefore limits the smallest particle sizes that can be effectively separated.
 # Multimedia
 o Sketch showing critical dimensions of channels (hand drawn or from CAD)
 o Picture of Testing setup (syringe pumps, device, etc.)
