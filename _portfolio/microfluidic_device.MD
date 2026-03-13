@@ -101,3 +101,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10672873/
 
 Vig, A. L., & Kristensen, A. (2008). Separation enhancement in pinched flow fractionation. Applied Physics Letters, 93(20), 203507.
 https://doi.org/10.1063/1.3028652
+
+[Ashrafizadeh, S. N., Zare, M., & Khatibi, M. (2025). A comprehensive review of pinch flow fractionation in microfluidics: From principles to practical applications. Chemical Engineering and Processing: Process Intensification, 208, 110087.](https://doi.org/10.1016/j.cep.2024.110087)
+
+[Torres-Castro, K., Acuña-Umaña, K., Lesser-Rojas, L., & Reyes, D. R. (2023). Microfluidic blood separation: Key technologies and critical figures of merit. Micromachines, 14(11), 2117.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10672873/)
+
+[Vig, A. L., & Kristensen, A. (2008). Separation enhancement in pinched flow fractionation. Applied Physics Letters, 93(20), 203507.](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf)
