@@ -69,6 +69,7 @@ o Picture of the mold
 o Picture of Plasma treating process (image supplied)
 o Picture of casted device
 o Embedded YouTube video of the device working.
+[Youtube Video] (https://youtu.be/pSMIe5w0k6k)
 
 # Interactive Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811ccc104ca4ac1f161?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
