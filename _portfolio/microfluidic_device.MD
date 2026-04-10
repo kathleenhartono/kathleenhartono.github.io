@@ -5,7 +5,7 @@ header:
   image: /assets/img/PhoneCase-1.png
   teaser: /assets/img/PhoneCase-1.png
 gallery:
-  - image_path: aassets/img/Plasma-Treating-Image (2).jpg
+  - image_path: assets/img/Plasma-Treating-Image (2).jpg
   - image_path: assets/img/IMG_7532.JPG
   - image_path: assets/img/IMG_7530.JPG
   - image_path: assets/img/Untitled design (4).gif
@@ -39,7 +39,7 @@ y<sub>PFF</sub> = (w<sub>b</sub> / w<sub>p</sub>) r<sub>p</sub>
 
 where w<sub>b</sub> is the width of the broad section, w<sub>p</sub> is the width of the pinched section, and r<sub>p</sub> represents the particle radius. This equation was used to estimate the expected particle streamlines after the flow expands into the broad section. The small-particle and large-particle outlets were positioned according to these predicted streamline locations, while the small-particle outlet was slightly adjusted to maintain the required spacing between outlets.
 
-  The buffer outlet had less strict positional requirements as long as the 11 mm spacing constraint was satisfied. However, it was intentionally designed to be shorter and wider so that it would have lower hydraulic resistance and naturally carry a larger fraction of the total flow. The outlet locations were scaled based on Figure 2 from [Vig and Kristensen](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf)(2008) to account for the difference in particle sizes used in the reference study compared to those required in this assignment. 
+  The buffer outlet had less strict positional requirements as long as the 11 mm spacing constraint was satisfied. However, it was intentionally designed to be shorter and wider so that it would have lower hydraulic resistance and naturally carry a larger fraction of the total flow. The outlet locations were scaled based on Figure 2 from [Vig and Kristensen](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf) (2008) to account for the difference in particle sizes used in the reference study compared to those required in this assignment. 
 
   Since the particles used in this project were approximately half the size range used in the paper, the geometry was scaled accordingly using the enhanced PFF relationship based on figure 2a in [Vig and Kristensen](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf):
 
@@ -90,6 +90,8 @@ r<sub>p</sub> = Radius of particle
 ![ ](assets/IMG_8925.JPG)
 ![ ](assets/IMG_8926.JPG)
 ![ ](assets/IMG_8928.JPG)
+<img src="assets/IMG_8928.JPG" alt="Description of image">
+
 
 6. PDMS Casting & Final Testing
   The resin print served as a mold to cast the device in PDMS, which was then sealed with glass and tested.
