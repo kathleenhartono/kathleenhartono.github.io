@@ -6,9 +6,9 @@ header:
   teaser: /assets/img/IMG_8015.JPG
 gallery:
   - image_path: assets/img/Plasma-Treating-Image (2).jpg
-  - image_path: assets/img/Screenshot%202026-04-10%20at%2001.45.52.png)
   - image_path: assets/img/Screenshot 2026-04-10 at 00.46.36.png
   - image_path: assets/img/IMG_8924 2.JPG
+  - image_path: assets/img/Screenshot%202026-04-10%20at%2001.45.52.png)
   - image_path: assets/img/IMG_8019.JPG
   - image_path: assets/IMG_8924.JPG
   - image_path: assets/IMG_8925.JPG
