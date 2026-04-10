@@ -83,38 +83,15 @@ r<sub>p</sub> = Radius of particle
 
 3. CAD Modeling
   The sketch was converted into a 3D CAD model, optimized for resin printing by accounting for channel size, resolution, and support structures.
-![CAD Drawing](assets/img/Screenshot%202026-04-10%20at%2001.45.52.png)
 
 4. Printing & Post-Processing
   The device was printed once on a high-resolution resin printer. Supports were carefully removed, and the device was cleaned and post-cured to prevent blockages.
-![Mold of Device](assets/img/IMG_8019.JPG)
 
 5. Testing & Evaluation
   Fluid flow and performance were evaluated, identifying design limitations despite producing only a single print.
-![Testing Setup](assets/IMG_8924.JPG)
-![ ](assets/IMG_8925.JPG)
-![ ](assets/IMG_8926.JPG)
-![ ](assets/IMG_8928.JPG)
-<img src="assets/IMG_8928.JPG" alt="Description of image">
 
-5. Testing & Evaluation  
-Fluid flow and performance were evaluated, identifying design limitations despite producing only a single print.
-
-![Testing Setup](assets/img/IMG_8924.JPG)
-![Testing image](assets/img/IMG_8925.JPG)
-![Testing image](assets/img/IMG_8926.JPG)
-![Testing image](assets/img/IMG_8928.JPG)
-
-5. Testing & Evaluation  
-Fluid flow and performance were evaluated, identifying design limitations despite producing only a single print.
-
-![Testing Setup](assets/IMG_8924.JPG)
-![Testing image](assets/IMG_8925.JPG)
-![Testing image](assets/IMG_8926.JPG)
-![Testing image](assets/IMG_8928.JPG)
 6. PDMS Casting & Final Testing
   The resin print served as a mold to cast the device in PDMS, which was then sealed with glass and tested.
-![Casted Device](assets/img/IMG_8924 2.JPG)
 
 # Discussion
   Resin printing was chosen because it allows for high-resolution fabrication of small features, which is necessary for creating precise microfluidic channel geometries. Compared to techniques such as FDM printing or traditional machining, resin printing can produce smoother surfaces and finer details, which improves the quality of the PDMS mold and helps ensure proper bonding to the glass slide. Additionally, resin printing enables rapid prototyping, allowing multiple iterations of a design to be produced quickly and at relatively low cost.
@@ -131,12 +108,6 @@ Why is your geometry conducive to sorting? Discuss specific dimensions (pinch wi
 What steps or design features did you use to ensure that each outlet received the same flow rate, preventing disruptions to the streamlines and maintaining proper separation?
 Based on the results of testing, could you implement any future changes to improve sorting?
 
-
-![Testing Setup](assets/IMG_8924.JPG) assets/img/Screenshot 2026-04-10 at 00.46.36.png
-kathleenhartono.github.io/assets/img/Screenshot 2026-04-10 at 00.46.36.png
-![Testing Setup](kathleenhartono.github.io/assets/img/Screenshot 2026-04-10 at 00.46.36.png)
-[Full Youtube Video](https://youtu.be/pSMIe5w0k6k)
-
 # Interactive Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811ccc104ca4ac1f161?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
@@ -148,3 +119,5 @@ kathleenhartono.github.io/assets/img/Screenshot 2026-04-10 at 00.46.36.png
 [Torres-Castro, K., Acuña-Umaña, K., Lesser-Rojas, L., & Reyes, D. R. (2023). Microfluidic blood separation: Key technologies and critical figures of merit. Micromachines, 14(11), 2117.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10672873/)
 
 [Vig, A. L., & Kristensen, A. (2008). Separation enhancement in pinched flow fractionation. Applied Physics Letters, 93(20), 203507.](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf)
+
+[Yamada, M.; Nakashima, M.; Seki, M. (2004) Pinched Flow Fractionation: Continuous Size Separation of Particles Utilizing a Laminar Flow Profile in a Pinched Microchannel. Anal. Chem. 76(18), 5465–5471.](https://doi.org/10.1021/ac049863r)
