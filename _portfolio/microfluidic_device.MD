@@ -78,7 +78,7 @@ r<sub>p</sub> = Radius of particle
 
 3. CAD Modeling
   The sketch was converted into a 3D CAD model, optimized for resin printing by accounting for channel size, resolution, and support structures.
-![CAD Drawing](assets/img/Screenshot 2026-04-10 at 01.45.52.png)
+![CAD Drawing](assets/img/Screenshot%202026-04-10%20at%2001.45.52.png)
 
 4. Printing & Post-Processing
   The device was printed once on a high-resolution resin printer. Supports were carefully removed, and the device was cleaned and post-cured to prevent blockages.
