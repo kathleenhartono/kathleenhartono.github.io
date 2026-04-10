@@ -21,7 +21,7 @@ This microfludic device, created through VPP printing, allows particles to be so
 
   When the flow enters the broader section, the particles follow different streamlines based on their positions in the pinched region, allowing them to exit through different outlets. These streamlines can be calculated to help predict particle trajectories. So, this process greatly relies on hydrodynamic flow and the geometry of the microfluidic device.
 
-  Although it was first introduced by [Yamada](https://pubs.acs.org/doi/10.1021/ac049863r)in 2004, PFF is now applied in fields such as medicine, polymer science, and other industries. a major use of microfluidic devices is for blood analysis as different cell types (red and white cells) and biomarkers (circulating tumor cells, pathogens) can be applied to diagnose diseases (anemia, cancer, and more). 
+  Although it was first introduced by [Yamada](https://pubs.acs.org/doi/10.1021/ac049863r) in 2004, PFF is now applied in fields such as medicine, polymer science, and other industries. a major use of microfluidic devices is for blood analysis as different cell types (red and white cells) and biomarkers (circulating tumor cells, pathogens) can be applied to diagnose diseases (anemia, cancer, and more). 
 
   With the use of PFF, these small blood cells are able to be tested without clogging or with extensive preparation compared to the traditional methods which can include centrifuging and filtering. Therefore, PFF, being more compact and quicker, would be able to handle low volume samples while maintaining efficiency without requiring external energy in this situation. 
 
@@ -30,7 +30,7 @@ This microfludic device, created through VPP printing, allows particles to be so
 ## Design Approach 
   A symmetric approach was chosen because an asymmetric design would introduce additional variables that are difficult to control, such as differences in flow rate, device elevation, and outlet resistance. Since this would require more precise tuning to ensure proper separation as well as a symmetrical design being more predictable, which simplifies calculating where particles of different sizes will exit the device.
 
-##Outlet Boundaries 
+## Outlet Boundaries 
   Since the overall device dimensions were fixed, both the inlets and outlets were positioned to satisfy the required design constraints. The inlet geometry was inspired by the design presented by Vig and Kristensen (2008). However, because of the spacing limitations in the assignment model, the inlet angle was increased to approximately 82.9° compared to the 39.9° angle in the original design. Increasing this angle allowed the inlets to be positioned farther apart while still directing the streams toward the pinch region. Although this slightly shortened the distance the fluids travel before mixing, it preserved the key design features associated with enhanced PFF behavior described in the literature.
 
   Once the overall geometry was defined, the streamline relationship for pinch flow fractionation was used to determine the vertical outlet positions from the bottom of the design space:
@@ -44,10 +44,15 @@ where w<sub>b</sub> is the width of the broad section, w<sub>p</sub> is the widt
   Since the particles used in this project were approximately half the size range used in the paper, the geometry was scaled accordingly using the enhanced PFF relationship based on figure 2a in [Vig and Kristensen](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf):
 
 y<sub>EPFF</sub> = ((R<sub>E</sub> / R<sub>s</sub>) + 1)(d<sub>E</sub> / w<sub>p</sub>) r<sub>p</sub>
+
 R<sub>E</sub> = Total hydraulic resistance of enhancing segment 
+
 R<sub>s</sub> = Total hydraulic resistance of sink segment 
+
 d<sub>E</sub> = Width of the wide section inside the enhancing segment 
+
 w<sub>p</sub> = Width of the pinched section 
+
 r<sub>p</sub> = Radius of particle 
 
   (R<sub>E</sub> / R<sub>s</sub>) was calculated from [Vig and Kristensen](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf) to be 2.14. This scaling, as well as extending the enhanced separator farther from the device's wall to ensure proper flow of the buffer and particle solution, allowed the outlet boundaries to better match the predicted particle trajectories for the particle sizes used in the experiment.
