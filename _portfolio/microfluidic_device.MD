@@ -4,6 +4,12 @@ excerpt: "Sorting particles by size using Pinch Flow Fractionation into differen
 header: 
   image: /assets/img/PhoneCase-1.png
   teaser: /assets/img/PhoneCase-1.png
+gallery:
+  - image_path: aassets/img/Plasma-Treating-Image (2).jpg
+  - image_path: assets/img/IMG_7532.JPG
+  - image_path: assets/img/IMG_7530.JPG
+  - image_path: assets/img/Untitled design (4).gif
+  - image_path: assets/img/IMG_7540.JPG
 ---
 
 This microfludic device, created through VPP printing, allows particles to be sorted based on size due to Pinch Flow Fractionation (PFF). Due to detailed reisn printing, a mold of the device is created and then finalized with PDMS casting. As the particles flow into different streams based of fludic mechanics, the design is flexiable and scalable to fit various sized particles and different solutions. 
@@ -61,16 +67,28 @@ r<sub>p</sub> = Radius of particle
 ## Instructions
 1. Understand the Project & Research
   The project began by defining goals and constraints, reviewing μfluidic principles, and conducting literature research, particularly on PFF designs. Missing details in papers required using equations and assumptions to estimate key parameters such as outlet height.
+
 2. Design & Scale
   A design from the literature was sketched to match the provided mold/template and scaled using proportional ratios. Key features and potential functionality issues were considered.
+
 3. CAD Modeling
   The sketch was converted into a 3D CAD model, optimized for resin printing by accounting for channel size, resolution, and support structures.
+![CAD Drawing](assets/img/Screenshot 2026-04-10 at 01.45.52.png)
+
 4. Printing & Post-Processing
   The device was printed once on a high-resolution resin printer. Supports were carefully removed, and the device was cleaned and post-cured to prevent blockages.
+![Mold of Device](assets/img/IMG_8019.JPG)
+
 5. Testing & Evaluation
   Fluid flow and performance were evaluated, identifying design limitations despite producing only a single print.
+![Testing Setup](assets/IMG_8924.JPG)
+![ ](assets/IMG_8925.JPG)
+![ ](assets/IMG_8926.JPG)
+![ ](assets/IMG_8928.JPG)
+
 6. PDMS Casting & Final Testing
   The resin print served as a mold to cast the device in PDMS, which was then sealed with glass and tested.
+![Casted Device](assets/img/IMG_8924 2.JPG)
 
 # Discussion
   Resin printing was chosen because it allows for high-resolution fabrication of small features, which is necessary for creating precise microfluidic channel geometries. Compared to techniques such as FDM printing or traditional machining, resin printing can produce smoother surfaces and finer details, which improves the quality of the PDMS mold and helps ensure proper bonding to the glass slide. Additionally, resin printing enables rapid prototyping, allowing multiple iterations of a design to be produced quickly and at relatively low cost.
@@ -81,15 +99,6 @@ r<sub>p</sub> = Radius of particle
 
 # Results of Enhanced PFF
   The result demonstrates an enhanced PFF (EPFF) device that improves particle separation through a snakelike structure in the broadening segment. It is noticeable that the particles are slightly lifted into the enhancing section, guiding the flow toward the particle outlets. The larger purple particles accelerate near the corner of the enhanced segment, allowing them to follow the streamlines closer to the enhancement rather than the device wall, directing them efficiently toward the large particle outlet.
-
-
-
-# Multimedia
-o Sketch showing critical dimensions of channels (hand drawn or from CAD)
-o Picture of Testing setup (syringe pumps, device, etc.)
-o Picture of the mold
-o Picture of Plasma treating process (image supplied)
-o Picture of casted device
 
 [Full Youtube Video](https://youtu.be/pSMIe5w0k6k)
 
