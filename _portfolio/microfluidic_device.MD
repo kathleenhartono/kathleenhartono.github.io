@@ -6,10 +6,16 @@ header:
   teaser: /assets/img/IMG_8015.JPG
 gallery:
   - image_path: assets/img/Plasma-Treating-Image (2).jpg
-  - image_path: assets/img/IMG_7532.JPG
+  - image_path: assets/img/Screenshot 2026-04-10 at 00.46.36.png
   - image_path: assets/img/IMG_7530.JPG
-  - image_path: assets/img/Untitled design (4).gif
-  - image_path: assets/img/IMG_7540.JPG
+  - image_path: assets/img/IMG_8924 2.JPG
+  - image_path: assets/IMG_8924.JPG
+  - image_path: assets/img/Screenshot%202026-04-10%20at%2001.45.52.png)
+  - image_path: assets/img/IMG_8019.JPG
+  - image_path: assets/IMG_8924.JPG
+  - image_path: assets/IMG_8925.JPG
+  - image_path: assets/IMG_8926.JPG
+  - image_path: assets/IMG_8928.JPG
 ---
 
 This microfludic device, created through VPP printing, allows particles to be sorted based on size due to Pinch Flow Fractionation (PFF). Due to detailed reisn printing, a mold of the device is created and then finalized with PDMS casting. As the particles flow into different streams based of fludic mechanics, the design is flexiable and scalable to fit various sized particles and different solutions. 
@@ -121,6 +127,12 @@ Fluid flow and performance were evaluated, identifying design limitations despit
 # Results of Enhanced PFF
   The result demonstrates an enhanced PFF (EPFF) device that improves particle separation through a snakelike structure in the broadening segment. It is noticeable that the particles are slightly lifted into the enhancing section, guiding the flow toward the particle outlets. The larger purple particles accelerate near the corner of the enhanced segment, allowing them to follow the streamlines closer to the enhancement rather than the device wall, directing them efficiently toward the large particle outlet.
 
+Why are resin-printed molds coated with parylene prior to casting the PDMS? What are hypothetical applications of your microfluidic mixer or sorter?
+Why is your geometry conducive to sorting? Discuss specific dimensions (pinch width, outlet width, location of ports, etc.)
+What steps or design features did you use to ensure that each outlet received the same flow rate, preventing disruptions to the streamlines and maintaining proper separation?
+Based on the results of testing, could you implement any future changes to improve sorting?
+
+
 ![Testing Setup](assets/IMG_8924.JPG) assets/img/Screenshot 2026-04-10 at 00.46.36.png
 kathleenhartono.github.io/assets/img/Screenshot 2026-04-10 at 00.46.36.png
 ![Testing Setup](kathleenhartono.github.io/assets/img/Screenshot 2026-04-10 at 00.46.36.png)
@@ -129,7 +141,7 @@ kathleenhartono.github.io/assets/img/Screenshot 2026-04-10 at 00.46.36.png
 # Interactive Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811ccc104ca4ac1f161?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Pliers Gallery" %}
+{% include gallery caption="EPFF Device Gallery" %}
 
 # References 
 [Ashrafizadeh, S. N., Zare, M., & Khatibi, M. (2025). A comprehensive review of pinch flow fractionation in microfluidics: From principles to practical applications. Chemical Engineering and Processing: Process Intensification, 208, 110087.](https://doi.org/10.1016/j.cep.2024.110087)
