@@ -6,6 +6,7 @@ header:
   teaser: /assets/img/IMG_8015.JPG
 gallery:
   - image_path: assets/img/Plasma-Treating-Image (2).jpg
+  - image_path: assets/img/Untitled (1920 x 900 px) (5).gif
   - image_path: assets/img/Screenshot 2026-04-10 at 00.46.36.png
   - image_path: assets/img/IMG_8924 2.JPG
   - image_path: assets/img/Screenshot%202026-04-10%20at%2001.45.52.png)
@@ -14,7 +15,6 @@ gallery:
   - image_path: assets/IMG_8925.JPG
   - image_path: assets/IMG_8926.JPG
   - image_path: assets/IMG_8928.JPG
-  - image_path: assets/img/Untitled (1920 x 900 px) (5).gif
 ---
 
 This microfludic device, created through VPP printing, allows particles to be sorted based on size due to Pinch Flow Fractionation (PFF). Due to detailed reisn printing, a mold of the device is created and then finalized with PDMS casting. As the particles flow into different streams based of fludic mechanics, the design is flexiable and scalable to fit various sized particles and different solutions. 
