@@ -107,6 +107,8 @@ r<sub>p</sub> = Radius of particle
 # Results of Enhanced PFF
   The result demonstrates an enhanced PFF (EPFF) device that improves particle separation through a snakelike structure in the broadening segment. It is noticeable that the particles are slightly lifted into the enhancing section, guiding the flow toward the particle outlets. The larger purple particles accelerate near the corner of the enhanced segment, allowing them to follow the streamlines closer to the enhancement rather than the device wall, directing them efficiently toward the large particle outlet.
 
+![Testing Setup](assets/IMG_8924.JPG) assets/img/Screenshot 2026-04-10 at 00.46.36.png
+
 [Full Youtube Video](https://youtu.be/pSMIe5w0k6k)
 
 # Interactive Model
