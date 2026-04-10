@@ -2,8 +2,8 @@
 title: "μFluidic Device"
 excerpt: "Sorting particles by size using Pinch Flow Fractionation into different streams."
 header: 
-  image: /assets/img/PhoneCase-1.png
-  teaser: /assets/img/PhoneCase-1.png
+  image: /assets/img/IMG_8015.JPG
+  teaser: /assets/img/IMG_8015.JPG
 gallery:
   - image_path: assets/img/Plasma-Treating-Image (2).jpg
   - image_path: assets/img/IMG_7532.JPG
@@ -92,7 +92,21 @@ r<sub>p</sub> = Radius of particle
 ![ ](assets/IMG_8928.JPG)
 <img src="assets/IMG_8928.JPG" alt="Description of image">
 
+5. Testing & Evaluation  
+Fluid flow and performance were evaluated, identifying design limitations despite producing only a single print.
 
+![Testing Setup](assets/img/IMG_8924.JPG)
+![Testing image](assets/img/IMG_8925.JPG)
+![Testing image](assets/img/IMG_8926.JPG)
+![Testing image](assets/img/IMG_8928.JPG)
+
+5. Testing & Evaluation  
+Fluid flow and performance were evaluated, identifying design limitations despite producing only a single print.
+
+![Testing Setup](assets/IMG_8924.JPG)
+![Testing image](assets/IMG_8925.JPG)
+![Testing image](assets/IMG_8926.JPG)
+![Testing image](assets/IMG_8928.JPG)
 6. PDMS Casting & Final Testing
   The resin print served as a mold to cast the device in PDMS, which was then sealed with glass and tested.
 ![Casted Device](assets/img/IMG_8924 2.JPG)
