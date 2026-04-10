@@ -9,7 +9,7 @@ gallery:
   - image_path: assets/img/Untitled (1920 x 900 px) (5).gif
   - image_path: assets/img/Screenshot 2026-04-10 at 00.46.36.png
   - image_path: assets/img/IMG_8924 2.JPG
-  - image_path: assets/img/Screenshot%202026-04-10%20at%2001.45.52.png)
+  - image_path: assets/img/Screenshot 2026-04-10 at 01.45.52.png
   - image_path: assets/img/IMG_8019.JPG
   - image_path: assets/IMG_8924.JPG
   - image_path: assets/IMG_8925.JPG
