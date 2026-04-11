@@ -17,7 +17,7 @@ gallery:
   - image_path: assets/img/IMG_8019.JPG
 ---
 
-This microfludic device, created through VPP printing, allows particles to be sorted based on size due to Pinch Flow Fractionation (PFF). Due to detailed reisn printing, a mold of the device is created and then finalized with PDMS casting. As the particles flow into different streams based of fludic mechanics, the design is flexiable and scalable to fit various sized particles and different solutions. 
+This microfluidic device, created through VPP printing, allows particles to be sorted based on size due to Pinch Flow Fractionation (PFF). Due to detailed resin printing, a mold of the device is created and then finalized with PDMS casting. As the particles flow into different streams based of fluidic mechanics, the design is flexible and scalable to fit various sized particles and different solutions. 
 
 # Introduction
   Pinch flow fractionation, also know as PFF, is a technique used to separate particles, by size, which is useful for many different applications. It is a passive microfluidic technique, meaning it does not require external forces to separate particles.
@@ -26,9 +26,9 @@ This microfludic device, created through VPP printing, allows particles to be so
 
   When the flow enters the broader section, the particles follow different streamlines based on their positions in the pinched region, allowing them to exit through different outlets. These streamlines can be calculated to help predict particle trajectories. So, this process greatly relies on hydrodynamic flow and the geometry of the microfluidic device.
 
-  Although it was first introduced by [Yamada](https://pubs.acs.org/doi/10.1021/ac049863r) in 2004, PFF is now applied in fields such as medicine, polymer science, and other industries. a major use of microfluidic devices is for blood analysis as different cell types (red and white cells) and biomarkers (circulating tumor cells, pathogens) can be applied to diagnose diseases (anemia, cancer, and more). 
+  Although it was first introduced by [Yamada](https://pubs.acs.org/doi/10.1021/ac049863r) in 2004, PFF is now applied in fields such as medicine, polymer science, and other industries. A major use of microfluidic devices is for blood analysis as different cell types (red and white cells) and biomarkers (circulating tumor cells, pathogens) can be applied to diagnose diseases (anemia, cancer, and more). 
 
-  For a sorter like this one, the most direct applications are size-based particle and cell fractionation, such as separating blood cells or sorting polymer beads. In a biomedical environment, it could be used for sample prep before imaging for PCR. If used as a mixer, it could also be used for  diagnostics or chemical reactions mixing.
+  For a sorter like this one, the most direct applications are size-based particle and cell fractionation, such as separating blood cells or sorting polymer beads. In a biomedical setting, it could be used for sample prep before imaging for PCR. If used as a mixer, it could also be used for  diagnostics or chemical reactions mixing.
 
   With the use of PFF, these small blood cells are able to be tested without clogging or with extensive preparation compared to the traditional methods which can include centrifuging and filtering. Therefore, PFF, being more compact and quicker, would be able to handle low volume samples while maintaining efficiency without requiring external energy in this situation. 
 
