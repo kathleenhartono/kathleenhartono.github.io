@@ -71,6 +71,13 @@ r<sub>p</sub> = Radius of particle
 
   The calculated flow distribution for the three outlets is 61.5% for the buffer, 26.2% for the largest particle outlet, and 12.3% for the smallest particle outlet. This ensures the buffer carries most of the flow while the particle outlets receive enough to preserve streamline separation..
 
+## Specific Dimensions
+The device geometry was designed to support pinch flow fractionation. The pinch width is about 0.95 mm, which compresses the particle stream before separation. The inlet ports are angled at 82.9° and spaced 12 mm apart to guide flow into the pinch region.
+
+The outlet ports are placed based on predicted streamlines, with positions measured from the top: 1.9 mm for small particles, 6.25 mm for large particles, and 23.48 mm for the buffer. The outlet widths vary to control flow, with the small particle outlet approximately 4.53 mm, large particle outlet 8.84 mm, and buffer outlet 19.60 mm. The buffer outlet is wider to carry more flow, while the particle outlets are narrower to maintain separation.
+
+The enhancing segment was adapted from a reference design but lowered slightly in the y-direction to better match expected particle flow after the pinch. This region has a width of 0.8 mm, a length of 4 mm, is located about 7.5 mm from the top, and connects to a longer section of about 21.2 mm in length.
+
 ## Improvements to Iterated Design
   This design was based on a previously published PFF device. However, the base dimensions of the device used in that paper were longer than the design space provided for this project, so the geometry had to be scaled and adjusted to meet the course constraints. If the design could be iterated, one improvement would be increasing the base length of the device so the original design proportions could be more closely replicated.
 
