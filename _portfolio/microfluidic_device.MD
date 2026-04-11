@@ -28,15 +28,17 @@ This microfludic device, created through VPP printing, allows particles to be so
 
   Although it was first introduced by [Yamada](https://pubs.acs.org/doi/10.1021/ac049863r) in 2004, PFF is now applied in fields such as medicine, polymer science, and other industries. a major use of microfluidic devices is for blood analysis as different cell types (red and white cells) and biomarkers (circulating tumor cells, pathogens) can be applied to diagnose diseases (anemia, cancer, and more). 
 
+  For a sorter like this one, the most direct applications are size-based particle and cell fractionation, such as separating blood cells or sorting polymer beads. In a biomedical environment, it could be used for sample prep before imaging for PCR. If used as a mixer, it could also be used for  diagnostics or chemical reactions mixing.
+
   With the use of PFF, these small blood cells are able to be tested without clogging or with extensive preparation compared to the traditional methods which can include centrifuging and filtering. Therefore, PFF, being more compact and quicker, would be able to handle low volume samples while maintaining efficiency without requiring external energy in this situation. 
 
 # Design
 
 ## Design Approach 
-  A symmetric approach was chosen because an asymmetric design would introduce additional variables that are difficult to control, such as differences in flow rate, device elevation, and outlet resistance. Since this would require more precise tuning to ensure proper separation as well as a symmetrical design being more predictable, which simplifies calculating where particles of different sizes will exit the device.
+  A symmetric approach was chosen because an asymmetric design would introduce variables that are difficult to control, such as differences in flow rate, elevation, and outlet resistance. A symmetric layout creates a more predictable flow field, making it easier to determine where particles of different sizes will exit the device. The geometry supports pinch flow fractionation by forcing particles into a narrow stream in the pinched section, then allowing them to expand into a wider region where their initial positions define their streamlines. This expansion enables particles of different sizes to follow separate trajectories toward their respective outlets.
 
 ## Outlet Boundaries 
-  Since the overall device dimensions were fixed, both the inlets and outlets were positioned to satisfy the required design constraints. The inlet geometry was inspired by the design presented by Vig and Kristensen (2008). However, because of the spacing limitations in the assignment model, the inlet angle was increased to approximately 82.9° compared to the 39.9° angle in the original design. Increasing this angle allowed the inlets to be positioned farther apart while still directing the streams toward the pinch region. Although this slightly shortened the distance the fluids travel before mixing, it preserved the key design features associated with enhanced PFF behavior described in the literature.
+  Since the overall device dimensions were fixed, both the inlets and outlets were positioned to satisfy the required design constraints. The inlet geometry was inspired by the design presented by Vig and Kristensen (2008). However, because of the spacing limitations in the assignment model, the inlet angle was increased to approximately 82.9° compared to the 39.9° angle in the original design provided in the assignment. Increasing this angle allowed the inlets to be positioned farther apart while still directing the streams toward the pinch region. Although this slightly shortened the distance the fluids travel before mixing, it preserved the key design features associated with enhanced PFF behavior described in the literature.
 
   Once the overall geometry was defined, the streamline relationship for pinch flow fractionation was used to determine the vertical outlet positions from the bottom of the design space:
 
@@ -67,7 +69,7 @@ r<sub>p</sub> = Radius of particle
 
   The pinched channel width also affects how particles are distributed in the broad section, which influences the outlet positions. Maintaining laminar flow is critical in PFF because particles passively follow streamlines determined by their position in the pinched region. The buffer outlet was designed to be shorter and wider, allowing it to naturally carry more flow with lower resistance. Additionally, the large particle outlet was placed farther away, increasing the channel length and helping balance the flow distribution between outlets.
 
-  The calculated flow distribution for the three outlets is 61.5% for the buffer, 26.2% for the largest particle outlet, and 12.3% for the smallest particle outlet. This ensures the buffer carries most of the flow while the particle outlets receive enough to achieve proper separation.
+  The calculated flow distribution for the three outlets is 61.5% for the buffer, 26.2% for the largest particle outlet, and 12.3% for the smallest particle outlet. This ensures the buffer carries most of the flow while the particle outlets receive enough to preserve streamline separation..
 
 ## Improvements to Iterated Design
   This design was based on a previously published PFF device. However, the base dimensions of the device used in that paper were longer than the design space provided for this project, so the geometry had to be scaled and adjusted to meet the course constraints. If the design could be iterated, one improvement would be increasing the base length of the device so the original design proportions could be more closely replicated.
@@ -87,11 +89,10 @@ r<sub>p</sub> = Radius of particle
 4. Printing & Post-Processing
   The device was printed once on a high-resolution resin printer. Supports were carefully removed, and the device was cleaned and post-cured to prevent blockages.
 
-5. Testing & Evaluation
-  Fluid flow and performance were evaluated, identifying design limitations despite producing only a single print.
-
-6. PDMS Casting & Final Testing
+5. PDMS Casting & Final Testing
   The resin print served as a mold to cast the device in PDMS, which was then sealed with glass and tested.
+
+  The 3D printed mold is cleaned, post-cured, and coated with parylene to act as a conformal barrier and release layer, preventing PDMS from sticking and avoiding damage to fine microfluidic features during demolding. PDMS is then prepared by mixing the base and curing agent, degassed to remove air bubbles, and poured over the mold. After curing in an oven, the PDMS is peeled off, inlet and outlet holes are punched, and it is bonded to a glass slide to seal the channels. The finished device is then connected to tubing and tested for proper flow.
 
 # Discussion
   Resin printing was chosen because it allows for high-resolution fabrication of small features, which is necessary for creating precise microfluidic channel geometries. Compared to techniques such as FDM printing or traditional machining, resin printing can produce smoother surfaces and finer details, which improves the quality of the PDMS mold and helps ensure proper bonding to the glass slide. Additionally, resin printing enables rapid prototyping, allowing multiple iterations of a design to be produced quickly and at relatively low cost.
@@ -103,10 +104,7 @@ r<sub>p</sub> = Radius of particle
 # Results of Enhanced PFF
   The result demonstrates an enhanced PFF (EPFF) device that improves particle separation through a snakelike structure in the broadening segment. It is noticeable that the particles are slightly lifted into the enhancing section, guiding the flow toward the particle outlets. The larger purple particles accelerate near the corner of the enhanced segment, allowing them to follow the streamlines closer to the enhancement rather than the device wall, directing them efficiently toward the large particle outlet.
 
-Why are resin-printed molds coated with parylene prior to casting the PDMS? What are hypothetical applications of your microfluidic mixer or sorter?
-Why is your geometry conducive to sorting? Discuss specific dimensions (pinch width, outlet width, location of ports, etc.)
-What steps or design features did you use to ensure that each outlet received the same flow rate, preventing disruptions to the streamlines and maintaining proper separation?
-Based on the results of testing, could you implement any future changes to improve sorting?
+  The biggest improvement would be to refine the outlet spacing, channel lengths, and outlet widths based on the actual particle trajectories observed during testing. If the first device showed streamlines drifting from the prediction, the outlet positions could be shifted slightly, so they better match the real streamline boundaries.
 
 # Interactive Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811ccc104ca4ac1f161?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
