@@ -10,7 +10,7 @@ gallery:
 
 ---
 
-##Completed Paddle 
+## Completed Paddle 
 This pickleball paddle was designed to comply with the 2026 USA Pickleball Official Rulebook while maintaining durability to be used in a real game. The overall dimensions do not exceed the maximum allowable combined length and width of 24 inches.
 
 The paddle features a solid faced structure with a 15% honeycomb infill pattern. This infill was selected to reduce overall weight while still maintaining sufficient structural integrity and impact resistance. The honeycomb geometry distributes stress efficiently and provides a balance between stiffness and energy absorption for when used to hit the ball. For the paddle face, I used carbon fiber–reinforced ABS, which offers increased stiffness, durability, and resistance to repeated impacts. The handle core and structural support components were printed in PLA for rigidity and dimensional accuracy. 
