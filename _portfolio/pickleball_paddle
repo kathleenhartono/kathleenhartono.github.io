@@ -18,16 +18,16 @@ The paddle features a solid faced structure with a 15% honeycomb infill pattern.
 Additionally, fillets and rounded edges were incorporated to reduce stress concentrations and improve durability for when the paddle could make contact with the ground. Since the paddle was able to connect internally, the outer heatsets designed to connect between the handle and paddle were not implement in the end print. 
 
 
-##TPU Grip
+## TPU Grip
 The handle was designed as a multi-material system to optimize both structural integrity and user comfort. The internal handle core was printed in PLA, but to enhance grip and reduce vibration, a TPU overgrip was added since TPU has high flexibility and comfortable to grip. The grip features a stripped pattern, which should reduce hand fatigue during games as it does not add significantly to the handle's thickness and removes the rigidness of the PLA. The patten also should allow for airflow between the handle and hand to minimize sweat which could therefore affect grip. 
 
 
-##Interchangeable Edge Guard
+## Interchangeable Edge Guard
 The paddle includes an interchangeable edge guard, designed as a component that attaches securely around the paddle perimeter through two heatsets along the egde, connecting to the handle component and secured again by connecting to the paddle. However, unfortunately, this part was unable to print properly. 
 But, the interchangable edge guard would allow for easier replacement especially when wear occurs from to ground contact. The edge guard was printed in PLA for rigidity and ease of manufacturing; however, in future iterations, PETG or TPU could be better choices for improved impact resistance. This addition extends the paddle lifespan and could allow players to customize based on playing conditions.
 
 
-##Weight and Mass Balance
+## Weight and Mass Balance
 This paddle was intentionally designed within the heavy weight category (>8.3 oz). The goal of this design was to prioritize power and shot stability over maximum maneuverability. A heavier paddle increases swing momentum, allowing for stronger drives, deeper shots, and more powerful serves with less required swing speed. This way, players are able to conserve their energy to play for longer periods of time. 
 
 To achieve this, carbon fiber–reinforced ABS was used in the paddle face to add both strength and mass, while internal infill distribution was adjusted to concentrate weight toward the paddle head. This resulted in a slightly head-heavy balance, which further enhances power generation by increasing swing inertia.
