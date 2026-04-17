@@ -4,6 +4,9 @@ excerpt: "A 3D printed paddle featuring a carbon fiber–reinforced ABS face, PL
 header:
   image: /assets/img/IMG_9090.JPG
   teaser: /assets/img/IMG_9091.JPG
+gallery:
+  - image_path: assets/img/IMG_9090.JPG
+  - image_path: assets/img/IMG_9091.JPG
 
 ---
 This pickleball paddle was designed to comply with the 2026 USA Pickleball Official Rulebook while maintaining durability for real gameplay. The overall dimensions do not exceed the maximum allowable combined length and width of 24 inches, and the paddle face follows a standard rectangular geometry to ensure consistent performance and control.
@@ -13,7 +16,6 @@ The paddle features a solid-core 3D printed structure with a 15% honeycomb infil
 For the paddle face, I used carbon fiber–reinforced ABS, which offers increased stiffness, durability, and resistance to repeated impacts. The handle core and structural support components were printed in PLA for rigidity and dimensional accuracy. The face thickness was increased slightly within legal limits to prevent cracking during play.
 
 Additionally, fillets and rounded edges were incorporated to reduce stress concentrations and improve durability. The design was validated through simulated impacts and short gameplay testing to confirm it can withstand typical use without fracture or delamination.
-
 
 
 The handle was designed as a multi-material system to optimize both structural integrity and user comfort. The internal handle core was printed in PLA, providing a rigid and stable connection between the paddle and the user’s hand. To enhance grip and reduce vibration, a TPU (thermoplastic polyurethane) overgrip was added.
@@ -28,6 +30,9 @@ This paddle was intentionally designed within the heavy weight category (>8.3 oz
 To achieve this, carbon fiber–reinforced ABS was used in the paddle face to add both strength and mass, while internal infill distribution was adjusted to concentrate weight toward the paddle head. This resulted in a slightly head-heavy balance, which further enhances power generation by increasing swing inertia.
 
 To offset the reduced maneuverability typically associated with heavier paddles, the handle was kept relatively lightweight using a PLA core with a TPU grip, preserving a degree of control and responsiveness. This balance supports an aggressive, power-focused style of play, particularly effective for baseline shots and driving rallies, while still maintaining sufficient control for net play.
+
+
+Since there was internal connection, the heatsets designed to connect between the handle and paddle were not used. 
 
 ---
 # Interactive Fusion 360 Model
