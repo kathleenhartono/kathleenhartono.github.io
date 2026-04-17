@@ -7,6 +7,7 @@ header:
 gallery:
   - image_path: assets/img/IMG_9090.JPG
   - image_path: assets/img/IMG_9091.JPG
+  - image_path: assets/img/Untitled (Instagram Reel) (3).gif
 
 ---
 
