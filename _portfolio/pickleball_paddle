@@ -41,6 +41,8 @@ Since there was internal connection, the heatsets designed to connect between th
 # Interactive Fusion 360 Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028116f222ca32cd0940c?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+{% include gallery caption="Paddle Gallery" %}
+
 ## References 
 
 [2026 USA Pickleball Official Rulebook](https://usapickleball.org/docs/USA-Pickleball-Official-Rulebook-2024-v1.pdf)
