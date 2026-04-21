@@ -13,6 +13,18 @@ gallery:
   - image_path: assets/img/IMG_0784.jpg
   - image_path: assets/img/str (24 x 18 in) (1).gif
   - image_path: assets/img/str (24 x 18 in) (2).gif
+  - image_path: Screenshot 2026-04-21 at 15.33.21.png
+  - image_path: Screenshot 2026-04-21 at 15.33.43.png
+  - image_path: Screenshot 2026-04-21 at 15.35.05.png
+  - image_path: Screenshot 2026-04-21 at 15.35.46.png
+  - image_path: Screenshot 2026-04-21 at 15.36.08.png
+  - image_path: Screenshot 2026-04-21 at 15.36.47.png
+  - image_path: Screenshot 2026-04-21 at 15.37.11.png
+  - image_path: Screenshot 2026-04-21 at 15.37.49.png
+  - image_path: Screenshot 2026-04-21 at 15.39.39.png
+
+
+
 ---
 
 This is a functional bike phone holder designed using a top-down modeling approach and 3D filament printing. The holder mounts securely to a given standard bicycle handlebars and allows for phone insertion and removal. K key component is the built-in detent mechanism allows the phone to go from portrait to landscape orientations with a clear “click,” which ensures stability during riding.
