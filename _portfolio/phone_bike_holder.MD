@@ -48,10 +48,8 @@ A clearance of 1 mm was between the circular plate and the back of the part that
 # Filament Printing 
 Filament printing was chosed since it was the more accessible and cost-effective, especially for rapid prototyping. Since this also allows for quick iterations and testing, like the detent mechanism and phone mechanisms, filament printing was the most reasonable to get parts quickly but with sufficient mechanical properties. Also, print setting made it easier to adjust according to varying components compiled. 
 
-▪ Brief Assembly/use instructions
-in order to 
-▪ Which printing technology and why did you use for each part?
-3d filament printing with the majority of the print in PLA except the ball bearing component that is a wheel to be ABS because 
+# Materials and Printing 
+3D filament printing was used for all components. The majority of the parts were printed in PLA since it is easy to printing, has good dimensional accuracy, and is suitability for rapid prototyping. However, the circular plate component was printed in ABS because it requires higher toughness and improved resistance to wear and repeated motion where the ball is interacting and needs to have click. ABS typically provides better durability under stress compared to PLA, so it more suitable for moving parts.
 
 # Assembly
 
