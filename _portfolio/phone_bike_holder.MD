@@ -5,10 +5,10 @@ header:
   image: /assets/img/IMG_0763.HEIC
   teaser: /assets/img/IMG_0763.HEIC
 gallery:
-  - image_path: assets/img/IMG_0757.HEIC
-  - image_path: assets/img/IMG_0758.HEIC
-  - image_path: assets/img/IMG_0762.HEIC
-  - image_path: assets/img/IMG_0763.HEIC
+  - image_path: assets/img/IMG_0757.jpg
+  - image_path: assets/img/IMG_0758.jpg
+  - image_path: assets/img/IMG_0762.jpg
+  - image_path: assets/img/IMG_0763.jpg
   - image_path: assets/img/str (24 x 18 in) (1).gif
   - image_path: assets/img/str (24 x 18 in) (2).gif
 ---
