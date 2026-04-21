@@ -23,67 +23,37 @@ gallery:
   - image_path: assets/img/Screenshot 2026-04-21 at 15.37.49.png
   - image_path: assets/img/Screenshot 2026-04-21 at 15.39.39.png
 
-
-
 ---
 
-This is a functional bike phone holder designed using a top-down modeling approach and 3D filament printing. The holder mounts securely to a given standard bicycle handlebars and allows for phone insertion and removal. K key component is the built-in detent mechanism allows the phone to go from portrait to landscape orientations with a clear “click,” which ensures stability during riding.
+This is a functional bike phone holder designed using a top-down modeling approach and 3D filament printing. The holder mounts securely to a given standard bicycle handlebars and allows for phone insertion and removal. The key component is the built-in detent mechanism allows the phone to go from portrait to landscape orientations with a clear “click,” which ensures stability during riding.
 
 # Top-Down Modeling Approach
 
-Top-down modeling was central to this project. Rather than designing individual parts independently, the entire assembly—including handlebars and phone geometry—was created first. The handlebars were modeled as a fixed reference component and anchored in place. A simplified phone model was then imported and positioned at a realistic viewing angle.
+Top-down modeling is a design approach where an assembly is created first, and individual components are then modeled within the context of that assembly in a single design file. This method allows all parts to reference each other, making it easier to ensure proper fit and function between components.
 
-From this master layout, all components of the holder were designed in context. This included:
+In this project, the bike handlebars were modeled first and used as a fixed reference component anchored in place. Additional components, such as the mount that holds the detent mechanism and connects to the handlebars, were then designed in relation to this reference geometry. The ball bearing and phone backing were created as separate components to allow rotational movement between them. Adjustable parts were subsequently modeled based on the positions of the existing components. A phone model was also imported and positioned within the assembly to guide dimensions and angles. Top-down modeling was particularly helpful withrotating components and reduce assembly errors.
 
-Handlebar clamp
-Rotating base plate
-Detent housing
-Phone cradle arms
-
-By projecting geometry from the handlebars and phone into component sketches, all parts maintained proper alignment and fit. This approach ensured that design changes—such as adjusting phone width or handlebar diameter—automatically propagated throughout the assembly.
-
-Top-down modeling was particularly beneficial for the rotating interface, where precise concentric alignment between components was required. It also reduced assembly errors since all parts were designed in their final positions and assembled using as-built joints.
-
-# Design Rationale
-
-The design balances stability, adjustability, and manufacturability.
-
-The clamp uses a split-ring design tightened with M5 fasteners and heat-set inserts. This allows secure attachment to handlebars while remaining removable.
-
-The phone cradle uses flexible side arms that allow phones to snap in without tools. The geometry accommodates a range of phone widths by incorporating slight elastic deformation in the arms.
+## Design Rationale
 
 # Detent Mechanism
 
-The detent mechanism was implemented using a spring-loaded ball bearing system. A small compression spring and steel ball are housed in the rotating plate. The mating component contains two recessed pockets corresponding to portrait (0°) and landscape (90°) orientations.
+The detent mechanism was implemented using a spring-ball bearing system. A small compression spring and stainless steel ball are located underneath the rotating circular plate, which has extruded ball positions to allow engagement. The mating component contains three recessed pockets corresponding to portrait (0°), angled (45°), and landscape (90°) orientations. When the user rotates the phone, the ball compresses against the spring and snaps into the next recess, creating a distinct click.
 
-When the user rotates the phone, the ball compresses against the spring and snaps into the next recess, creating a distinct “click.”
-
-This mechanism works effectively. It provides strong positional locking while still allowing manual rotation. Early prototypes had insufficient depth in the detent pockets, resulting in weak engagement. Increasing pocket depth and slightly stiffening the spring improved performance significantly.
+This mechanism works effectively and produces a clear sound that demonstrates the phone can withstand forces and remain in position. It provides strong positional locking while still allowing manual rotation. Early prototypes used a smaller detent mechanism with a 4 mm stainless steel ball, which was not deep or strong enough to withstand the force of the phone. The design was updated to use an 8 mm ball, and the circular plate was increased in size to account for this. Earlier versions also had insufficient depth in the detent pockets, resulting in weak engagement. Increasing the pocket depth and slightly stiffening the spring improved performance significantly.
 
 # Dimensional Adjustments for 3D Printing
 
-Several dimensional changes were necessary to account for FDM printing tolerances:
+A clearance of 1 mm was between the circular plate and the back of the part that attaches to the bike handle. There was also a need to consider the circular plate extrusion for the ball to ensure that there is enough material to keep the phone steady while in position. For the M3 bolts, the diameter of the holes was 3 mm, which could fit the necessary parts, but if the design were further iterated, it should be increased. This is especially important because filament printing can introduce issues such as the material melting or deviating from the original model, as well as supports that may be difficult to remove.
 
-Clearances of 0.25 mm were added between rotating parts to prevent binding
-Holes for M5 fasteners were oversized (~0.2 mm) for proper fit
-The detent housing diameter was increased slightly to accommodate printer inaccuracies
-Snap-fit arms were thickened to prevent layer-line failure
+# Filament Printing 
+Filament printing was chosed since it was the more accessible and cost-effective, especially for rapid prototyping. Since this also allows for quick iterations and testing, like the detent mechanism and phone mechanisms, filament printing was the most reasonable to get parts quickly but with sufficient mechanical properties. Also, print setting made it easier to adjust according to varying components compiled. 
 
-
-
-Multiple pictures of printed model – both standalone and in use
-Writeup with
-A description of top-down modeling and how it was leveraged in this assignment.
-Rationale behind your design
-Assembly instructions
-Material choice
-
-
-• What type of 3D printing did you use? Why?
 ▪ Brief Assembly/use instructions
 in order to 
 ▪ Which printing technology and why did you use for each part?
 3d filament printing with the majority of the print in PLA except the ball bearing component that is a wheel to be ABS because 
+
+# Assembly
 
 # Interactive Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811345fc0dda0a795df?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
