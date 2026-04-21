@@ -2,8 +2,8 @@
 title:  "Bike Phone Holder"
 excerpt: "A rotating, detent-based phone holder designed using top-down modeling for secure mounting on bicycle handlebars."
 header: 
-  image: /assets/img/IMG_0784.jpg/assets/img/IMG_0757.jpg
-  teaser: /assets/img/IMG_0757.jpg
+  image: /assets/img/IMG_0757.jpg
+  teaser: /assets/img/IMG_0784.jpg/
 gallery:
   - image_path: assets/img/IMG_0757.jpg
   - image_path: assets/img/IMG_0758.jpg
