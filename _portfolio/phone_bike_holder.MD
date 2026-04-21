@@ -2,19 +2,15 @@
 title:  "Bike Phone Holder"
 excerpt: "A rotating, detent-based phone holder designed using top-down modeling for secure mounting on bicycle handlebars."
 header: 
-  image: /assets/img/IMG_8015.JPG
-  teaser: /assets/img/IMG_8015.JPG
+  image: /assets/img/IMG_0763.HEIC
+  teaser: /assets/img/IMG_0763.HEIC
 gallery:
-  - image_path: assets/img/Screenshot 2026-04-10 at 01.45.52.png
-  - image_path: assets/img/Untitled (1920 x 900 px) (5).gif
-  - image_path: assets/img/Screenshot 2026-04-10 at 00.46.36.png
-  - image_path: assets/img/IMG_8924 2.JPG
-  - image_path: assets/IMG_8924.JPG
-  - image_path: assets/IMG_8925.JPG
-  - image_path: assets/IMG_8926.JPG
-  - image_path: assets/IMG_8928.JPG
-  - image_path: assets/img/Plasma-Treating-Image (2).jpg
-  - image_path: assets/img/IMG_8019.JPG
+  - image_path: assets/img/IMG_0757.HEIC
+  - image_path: assets/img/IMG_0758.HEIC
+  - image_path: assets/img/IMG_0762.HEIC
+  - image_path: assets/img/IMG_0763.HEIC
+  - image_path: assets/img/str (24 x 18 in) (1).gif
+  - image_path: assets/img/str (24 x 18 in) (2).gif
 ---
 
 This is a functional bike phone holder designed using a top-down modeling approach and 3D printed using filament . The holder mounts securely to a given standard bicycle handlebars and allows for phone insertion and removal. K key component is the built-in detent mechanism allows the phone to go from portrait to landscape orientations with a clear “click,” which ensures stability during riding.
