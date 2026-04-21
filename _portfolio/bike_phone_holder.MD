@@ -18,6 +18,7 @@ gallery:
   - image_path: assets/img/IMG_8019.JPG
 ---
 
+
 This is a functional bike phone holder designed using a top-down modeling approach and 3D printed using filament . The holder mounts securely to a given standard bicycle handlebars and allows for phone insertion and removal. K key component is the built-in detent mechanism allows the phone to go from portrait to landscape orientations with a clear “click,” which ensures stability during riding.
 
 # Top-Down Modeling Approach
