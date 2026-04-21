@@ -1,6 +1,6 @@
 ---
-title: "μFluidic Device"
-excerpt: "Sorting particles by size using Pinch Flow Fractionation into different streams."
+title:  "Bike Phone Holder"
+excerpt: "A rotating, detent-based phone holder designed using top-down modeling for secure mounting on bicycle handlebars."
 header: 
   image: /assets/img/IMG_8015.JPG
   teaser: /assets/img/IMG_8015.JPG
@@ -17,104 +17,76 @@ gallery:
   - image_path: assets/img/IMG_8019.JPG
 ---
 
-This microfluidic device, created through VPP printing, allows particles to be sorted based on size due to Pinch Flow Fractionation (PFF). Due to detailed resin printing, a mold of the device is created and then finalized with PDMS casting. As the particles flow into different streams based of fluidic mechanics, the design is flexible and scalable to fit various sized particles and different solutions. 
+This is a functional bike phone holder designed using a top-down modeling approach and 3D printed using filament . The holder mounts securely to a given standard bicycle handlebars and allows for phone insertion and removal. K key component is the built-in detent mechanism allows the phone to go from portrait to landscape orientations with a clear “click,” which ensures stability during riding.
 
-# Introduction
-  Pinch flow fractionation, also know as PFF, is a technique used to separate particles, by size, which is useful for many different applications. It is a passive microfluidic technique, meaning it does not require external forces to separate particles.
+# Top-Down Modeling Approach
 
-  PFF works using a pinched section which is a narrow channel where a buffer flow will compress the particle stream, forcing the particles toward one side of the channel. Because particles have different sizes, larger particles cannot move as close to the wall as smaller particles. 
+Top-down modeling was central to this project. Rather than designing individual parts independently, the entire assembly—including handlebars and phone geometry—was created first. The handlebars were modeled as a fixed reference component and anchored in place. A simplified phone model was then imported and positioned at a realistic viewing angle.
 
-  When the flow enters the broader section, the particles follow different streamlines based on their positions in the pinched region, allowing them to exit through different outlets. These streamlines can be calculated to help predict particle trajectories. So, this process greatly relies on hydrodynamic flow and the geometry of the microfluidic device.
+From this master layout, all components of the holder were designed in context. This included:
 
-  Although it was first introduced by [Yamada](https://pubs.acs.org/doi/10.1021/ac049863r) in 2004, PFF is now applied in fields such as medicine, polymer science, and other industries. A major use of microfluidic devices is for blood analysis as different cell types (red and white cells) and biomarkers (circulating tumor cells, pathogens) can be applied to diagnose diseases (anemia, cancer, and more). 
+Handlebar clamp
+Rotating base plate
+Detent housing
+Phone cradle arms
 
-  For a sorter like this one, the most direct applications are size-based particle and cell fractionation, such as separating blood cells or sorting polymer beads. In a biomedical setting, it could be used for sample prep before imaging for PCR. If used as a mixer, it could also be used for  diagnostics or chemical reactions mixing.
+By projecting geometry from the handlebars and phone into component sketches, all parts maintained proper alignment and fit. This approach ensured that design changes—such as adjusting phone width or handlebar diameter—automatically propagated throughout the assembly.
 
-  With the use of PFF, these small blood cells are able to be tested without clogging or with extensive preparation compared to the traditional methods which can include centrifuging and filtering. Therefore, PFF, being more compact and quicker, would be able to handle low volume samples while maintaining efficiency without requiring external energy in this situation. 
+Top-down modeling was particularly beneficial for the rotating interface, where precise concentric alignment between components was required. It also reduced assembly errors since all parts were designed in their final positions and assembled using as-built joints.
 
-# Design
+# Design Rationale
 
-## Design Approach 
-  A symmetric approach was chosen because an asymmetric design would introduce variables that are difficult to control, such as differences in flow rate, elevation, and outlet resistance. A symmetric layout creates a more predictable flow field, making it easier to determine where particles of different sizes will exit the device. The geometry supports pinch flow fractionation by forcing particles into a narrow stream in the pinched section, then allowing them to expand into a wider region where their initial positions define their streamlines. This expansion enables particles of different sizes to follow separate trajectories toward their respective outlets.
+The design balances stability, adjustability, and manufacturability.
 
-## Outlet Boundaries 
-  Since the overall device dimensions were fixed, both the inlets and outlets were positioned to satisfy the required design constraints. The inlet geometry was inspired by the design presented by Vig and Kristensen (2008). However, because of the spacing limitations in the assignment model, the inlet angle was increased to approximately 82.9° compared to the 39.9° angle in the original design provided in the assignment. Increasing this angle allowed the inlets to be positioned farther apart while still directing the streams toward the pinch region. Although this slightly shortened the distance the fluids travel before mixing, it preserved the key design features associated with enhanced PFF behavior described in the literature.
+The clamp uses a split-ring design tightened with M5 fasteners and heat-set inserts. This allows secure attachment to handlebars while remaining removable.
 
-  Once the overall geometry was defined, the streamline relationship for pinch flow fractionation was used to determine the vertical outlet positions from the bottom of the design space:
+The phone cradle uses flexible side arms that allow phones to snap in without tools. The geometry accommodates a range of phone widths by incorporating slight elastic deformation in the arms.
 
-y<sub>PFF</sub> = (w<sub>b</sub> / w<sub>p</sub>) r<sub>p</sub>
+# Detent Mechanism
 
-where w<sub>b</sub> is the width of the broad section, w<sub>p</sub> is the width of the pinched section, and r<sub>p</sub> represents the particle radius. This equation was used to estimate the expected particle streamlines after the flow expands into the broad section. The small-particle and large-particle outlets were positioned according to these predicted streamline locations, while the small-particle outlet was slightly adjusted to maintain the required spacing between outlets.
+The detent mechanism was implemented using a spring-loaded ball bearing system. A small compression spring and steel ball are housed in the rotating plate. The mating component contains two recessed pockets corresponding to portrait (0°) and landscape (90°) orientations.
 
-  The buffer outlet had less strict positional requirements as long as the 11 mm spacing constraint was satisfied. However, it was intentionally designed to be shorter and wider so that it would have lower hydraulic resistance and naturally carry a larger fraction of the total flow. The outlet locations were scaled based on Figure 2 from [Vig and Kristensen](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf) (2008) to account for the difference in particle sizes used in the reference study compared to those required in this assignment. 
+When the user rotates the phone, the ball compresses against the spring and snaps into the next recess, creating a distinct “click.”
 
-  Since the particles used in this project were approximately half the size range used in the paper, the geometry was scaled accordingly using the enhanced PFF relationship based on figure 2a in [Vig and Kristensen](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf):
+This mechanism works effectively. It provides strong positional locking while still allowing manual rotation. Early prototypes had insufficient depth in the detent pockets, resulting in weak engagement. Increasing pocket depth and slightly stiffening the spring improved performance significantly.
 
-y<sub>EPFF</sub> = ((R<sub>E</sub> / R<sub>s</sub>) + 1)(d<sub>E</sub> / w<sub>p</sub>) r<sub>p</sub>
+# Dimensional Adjustments for 3D Printing
 
-R<sub>E</sub> = Total hydraulic resistance of enhancing segment 
+Several dimensional changes were necessary to account for FDM printing tolerances:
 
-R<sub>s</sub> = Total hydraulic resistance of sink segment 
+Clearances of 0.25 mm were added between rotating parts to prevent binding
+Holes for M5 fasteners were oversized (~0.2 mm) for proper fit
+The detent housing diameter was increased slightly to accommodate printer inaccuracies
+Snap-fit arms were thickened to prevent layer-line failure
 
-d<sub>E</sub> = Width of the wide section inside the enhancing segment 
 
-w<sub>p</sub> = Width of the pinched section 
 
-r<sub>p</sub> = Radius of particle 
+Multiple pictures of printed model – both standalone and in use
+Writeup with
+A description of top-down modeling and how it was leveraged in this assignment.
+Rationale behind your design
+Assembly instructions
+Material choice
 
-  (R<sub>E</sub> / R<sub>s</sub>) was calculated from [Vig and Kristensen](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf) to be 2.14. This scaling, as well as extending the enhanced separator farther from the device's wall to ensure proper flow of the buffer and particle solution, allowed the outlet boundaries to better match the predicted particle trajectories for the particle sizes used in the experiment.
 
-## Imbalanced Flow 
-  The flow balancing issue occurs because the buffer stream carries a much larger portion of the total flow than the particle streams. To address this, the channel widths and lengths were adjusted to control the hydraulic resistance in each outlet. The particle outlet channels were made longer and narrower, which increases resistance and prevents excess buffer flow from diverting into those outlets.
+• What type of 3D printing did you use? Why?
+▪ Brief Assembly/use instructions
+in order to 
+▪ Which printing technology and why did you use for each part?
+3d filament printing with the majority of the print in PLA except the ball bearing component that is a wheel to be ABS because 
+o Embedded Interactive CAD model
+o Figures:
+▪ Real-life picture(s) of printed model in use on bike handlebars.
+▪ Real-life .GIF of the holder rotating between landscape and portrait
+▪ Fusion Rendering of phone holder with phone on it.
+▪ Cross-section view of internal rotation mechanism. This can be a
+screenshot of the design workspace with the section analysis tool.
+▪ Individual images of each of the top-down components. This can be reallife or Fusion renderings.
+o Be sure to check spelling and formatting of portfolio entry
 
-  The pinched channel width also affects how particles are distributed in the broad section, which influences the outlet positions. Maintaining laminar flow is critical in PFF because particles passively follow streamlines determined by their position in the pinched region. The buffer outlet was designed to be shorter and wider, allowing it to naturally carry more flow with lower resistance. Additionally, the large particle outlet was placed farther away, increasing the channel length and helping balance the flow distribution between outlets.
-
-  The calculated flow distribution for the three outlets is 61.5% for the buffer, 26.2% for the largest particle outlet, and 12.3% for the smallest particle outlet. This ensures the buffer carries most of the flow while the particle outlets receive enough to preserve streamline separation..
-
-## Specific Dimensions
-The device geometry was designed to support pinch flow fractionation. The pinch width is about 0.95 mm, which compresses the particle stream before separation. The inlet ports are angled at 82.9° and spaced 12 mm apart to guide flow into the pinch region.
-
-The outlet ports are placed based on predicted streamlines, with positions measured from the top: 1.9 mm for small particles, 6.25 mm for large particles, and 23.48 mm for the buffer. The outlet widths vary to control flow, with the small particle outlet approximately 4.53 mm, large particle outlet 8.84 mm, and buffer outlet 19.60 mm. The buffer outlet is wider to carry more flow, while the particle outlets are narrower to maintain separation.
-
-The enhancing segment was adapted from a reference design but lowered slightly in the y-direction to better match expected particle flow after the pinch. This region has a width of 0.8 mm, a length of 4 mm, is located about 7.5 mm from the top, and connects to a longer section of about 21.2 mm in length.
-
-## Improvements to Iterated Design
-  This design was based on a previously published PFF device. However, the base dimensions of the device used in that paper were longer than the design space provided for this project, so the geometry had to be scaled and adjusted to meet the course constraints. If the design could be iterated, one improvement would be increasing the base length of the device so the original design proportions could be more closely replicated.
-
-  Additionally, because the device could not be tested prior to fabrication, it was difficult to confirm whether the particles would follow the predicted streamlines exactly. Experimental conditions can deviate from theoretical predictions due to factors such as flow instability or fabrication tolerances. After testing the first device, the next iteration could adjust outlet spacing, channel lengths, and outlet widths to better match the observed particle trajectories and improve separation efficiency.
-
-## Instructions
-1. Understand the Project & Research
-  The project began by defining goals and constraints, reviewing μfluidic principles, and conducting literature research, particularly on PFF designs. Missing details in papers required using equations and assumptions to estimate key parameters such as outlet height.
-
-2. Design & Scale
-  A design from the literature was sketched to match the provided mold/template and scaled using proportional ratios. Key features and potential functionality issues were considered.
-
-3. CAD Modeling
-  The sketch was converted into a 3D CAD model, optimized for resin printing by accounting for channel size, resolution, and support structures.
-
-4. Printing & Post-Processing
-  The device was printed once on a high-resolution resin printer. Supports were carefully removed, and the device was cleaned and post-cured to prevent blockages.
-
-5. PDMS Casting & Final Testing
-  The resin print served as a mold to cast the device in PDMS, which was then sealed with glass and tested.
-
-  The 3D printed mold is cleaned, post-cured, and coated with parylene to act as a conformal barrier and release layer, preventing PDMS from sticking and avoiding damage to fine microfluidic features during demolding. PDMS is then prepared by mixing the base and curing agent, degassed to remove air bubbles, and poured over the mold. After curing in an oven, the PDMS is peeled off, inlet and outlet holes are punched, and it is bonded to a glass slide to seal the channels. The finished device is then connected to tubing and tested for proper flow.
-
-# Discussion
-  Resin printing was chosen because it allows for high-resolution fabrication of small features, which is necessary for creating precise microfluidic channel geometries. Compared to techniques such as FDM printing or traditional machining, resin printing can produce smoother surfaces and finer details, which improves the quality of the PDMS mold and helps ensure proper bonding to the glass slide. Additionally, resin printing enables rapid prototyping, allowing multiple iterations of a design to be produced quickly and at relatively low cost.
-
-  The design could be modified to handle a wider range of particle sizes by adjusting the width of the pinched section and the broad section of the channel. Since particle separation in PFF depends on the relationship between particle diameter and the pinch width, increasing or decreasing this width would shift the particle streamline positions. Another approach would be to add additional outlet channels, allowing more particle size ranges to be separated. The channel lengths and widths could also be adjusted to maintain proper flow resistance and streamline separation for different particle sizes.
-
-  The lower limit of particle size that can be separated using PFF is mainly determined by the resolution of the fabricated microchannels and the surface roughness of the device. If the particles are smaller than the surface roughness of the channel walls, their trajectories become unpredictable and reliable separation becomes difficult. In addition, Brownian motion becomes more significant for very small particles, which can cause particles to deviate from their expected streamlines. Finally, the precision of the manufacturing process, such as the minimum feature size of the resin printer, limits how small the pinch channel can be fabricated and therefore limits the smallest particle sizes that can be effectively separated.
-
-# Results of Enhanced PFF
-  The result demonstrates an enhanced PFF (EPFF) device that improves particle separation through a snakelike structure in the broadening segment. It is noticeable that the particles are slightly lifted into the enhancing section, guiding the flow toward the particle outlets. The larger purple particles accelerate near the corner of the enhanced segment, allowing them to follow the streamlines closer to the enhancement rather than the device wall, directing them efficiently toward the large particle outlet.
-
-  The biggest improvement would be to refine the outlet spacing, channel lengths, and outlet widths based on the actual particle trajectories observed during testing. If the first device showed streamlines drifting from the prediction, the outlet positions could be shifted slightly, so they better match the real streamline boundaries.
 
 # Interactive Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811ccc104ca4ac1f161?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811345fc0dda0a795df?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="EPFF Device Gallery" %}
 
