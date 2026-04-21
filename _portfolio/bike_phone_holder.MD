@@ -1,3 +1,4 @@
+---
 Writeup including (>500 words):
 CHBE 4200 Top-Down GitHub Project
 ▪ A description of top-down modeling and how it was leveraged in this
@@ -18,7 +19,7 @@ o Figures:
 ▪ Cross-section view of internal rotation mechanism. This can be a
 screenshot of the design workspace with the section analysis tool.
 ▪ Individual images of each of the top-down components. This can be reallife or Fusion renderings.
-
+---
 Embedded CAD model
 Multiple pictures of printed model – both standalone and in use
 Writeup with
