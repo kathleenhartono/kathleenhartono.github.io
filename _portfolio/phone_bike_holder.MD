@@ -21,7 +21,8 @@ gallery:
   - image_path: assets/img/Screenshot 2026-04-21 at 15.36.47.png
   - image_path: assets/img/Screenshot 2026-04-21 at 15.37.11.png
   - image_path: assets/img/Screenshot 2026-04-21 at 15.37.49.png
-  - image_path: assets/img/Screenshot 2026-04-21 at 15.39.39.png
+  - image_path: assets/img/Screenshot 2026-04-21 at 16.49.49.png
+
 
 ---
 
