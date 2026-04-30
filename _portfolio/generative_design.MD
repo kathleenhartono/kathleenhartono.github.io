@@ -14,7 +14,7 @@ gallery:
   - image_path: assets/img/FullSizeRender (5).jpeg
   - image_path: assets/img/FullSizeRender (6).jpeg
   - image_path: assets/img/FullSizeRender (7).jpeg
-  - image_path: assets/img/assets/img/str (24 x 18 in) (4).gif
+  - image_path: assets/img/str (24 x 18 in) (4).gif
   - image_path: assets/img/str (24 x 18 in) (3).gif
 ---
 Generative Design
@@ -57,13 +57,14 @@ o Short rational
 # Interactive Model
 ## Aluminum ALSi10Mg
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811bd84556541f90051?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028114c1df3092b30a034?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Stainless Steel 17-4 PH 
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811156481ac36102a41?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811e34c6d7e6754b6fa?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Nylon
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028115a5d8bca9ec784cd?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Assembly with Nylon 
 
