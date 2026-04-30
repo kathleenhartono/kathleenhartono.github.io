@@ -46,8 +46,6 @@ process. How did you determine which forces to apply to the model?
 
  Table of the forces applied, including columns for
 o Name of force
-CHBE 4200
-5
 o Magnitude
 o Location of where it was applied
 o Short rational 
@@ -55,13 +53,19 @@ o Short rational
 
 
 
-## Interactive Model
-# Aluminum ALSi10Mg
+# Interactive Model
+## Aluminum ALSi10Mg
+
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028115a5d8bca9ec784cd?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-# Stainless Steel 17-4 PH 
+
+## Stainless Steel 17-4 PH 
+
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811156481ac36102a41?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-# Nylon
-# Assembly with Nylon 
+
+## Nylon
+
+## Assembly with Nylon 
+
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281156d5f3e5195d9289?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery caption="EPFF Device Gallery" %}
