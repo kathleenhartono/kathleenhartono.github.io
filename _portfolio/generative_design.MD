@@ -2,19 +2,20 @@
 title: "Generative Design Skateboard Truck"
 excerpt: "Lightweight generative design of a skateboard truck hanger with an integrated motor mount."
 header: 
-  image: /assets/img/IMG_8015.JPG
-  teaser: /assets/img/IMG_8015.JPG
+  image: /assets/img/FullSizeRender (3).jpeg
+  teaser: /assets/img/FullSizeRender (4).jpeg
 gallery:
-  - image_path: assets/img/Screenshot 2026-04-10 at 01.45.52.png
-  - image_path: assets/img/Untitled (1920 x 900 px) (5).gif
-  - image_path: assets/img/Screenshot 2026-04-10 at 00.46.36.png
-  - image_path: assets/img/IMG_8924 2.JPG
-  - image_path: assets/IMG_8924.JPG
-  - image_path: assets/IMG_8925.JPG
-  - image_path: assets/IMG_8926.JPG
-  - image_path: assets/IMG_8928.JPG
-  - image_path: assets/img/Plasma-Treating-Image (2).jpg
-  - image_path: assets/img/IMG_8019.JPG
+  - image_path: 
+  - image_path: assets/img/FullSizeRender .jpeg
+  - image_path: assets/img/FullSizeRender (1).jpeg
+  - image_path: assets/img/FullSizeRender (2).jpeg
+  - image_path: assets/img/FullSizeRender (3).jpeg
+  - image_path: assets/img/FullSizeRender (4).jpeg
+  - image_path: assets/img/FullSizeRender (5).jpeg
+  - image_path: assets/img/FullSizeRender (6).jpeg
+  - image_path: assets/img/FullSizeRender (7).jpeg
+  - image_path: assets/img/assets/img/str (24 x 18 in) (4).gif
+  - image_path: assets/img/str (24 x 18 in) (3).gif
 ---
 Generative Design
 o Critique generative design. How useful is it really? What are the drawbacks?
