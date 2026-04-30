@@ -1,6 +1,6 @@
 ---
-title: "μFluidic Device"
-excerpt: "Sorting particles by size using Pinch Flow Fractionation into different streams."
+title: "Generative Design Skateboard Truck"
+excerpt: "Lightweight generative design of a skateboard truck hanger with an integrated motor mount."
 header: 
   image: /assets/img/IMG_8015.JPG
   teaser: /assets/img/IMG_8015.JPG
