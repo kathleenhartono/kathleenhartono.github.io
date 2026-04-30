@@ -6,7 +6,7 @@ header:
   teaser: /assets/img/FullSizeRender (3).jpeg
 gallery:
   - image_path: assets/img/IMG_9310.jpeg
-  - image_path: assets/img/FullSizeRender .jpeg
+  - image_path: assets/img/FullSizeRender.jpeg
   - image_path: assets/img/FullSizeRender (1).jpeg
   - image_path: assets/img/FullSizeRender (2).jpeg
   - image_path: assets/img/FullSizeRender (3).jpeg
