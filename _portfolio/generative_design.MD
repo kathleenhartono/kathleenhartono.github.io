@@ -17,7 +17,7 @@ gallery:
   - image_path: assets/img/FullSizeRender 2.jpeg
   - image_path: assets/img/str (24 x 18 in) (4).gif
   - image_path: assets/img/str (24 x 18 in) (3).gif
-  - image_path: assets/img/str (24 x 18 in) (5).gif
+  - image_path: assets/img/str (24 x 18 in) (6).gif
   - image_path: assets/img/str (24 x 18 in) (7).gif
 ---
 Generative Design
