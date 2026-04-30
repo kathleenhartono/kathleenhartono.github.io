@@ -5,7 +5,7 @@ header:
   image: /assets/img/FullSizeRender (4).jpeg
   teaser: /assets/img/FullSizeRender (3).jpeg
 gallery:
-  - image_path: 
+  - image_path: assets/img/IMG_9310.jpeg
   - image_path: assets/img/FullSizeRender .jpeg
   - image_path: assets/img/FullSizeRender (1).jpeg
   - image_path: assets/img/FullSizeRender (2).jpeg
@@ -18,7 +18,7 @@ gallery:
   - image_path: assets/img/str (24 x 18 in) (4).gif
   - image_path: assets/img/str (24 x 18 in) (3).gif
   - image_path: assets/img/str (24 x 18 in) (5).gif
-  - image_path: assets/img/str (24 x 18 in) (6).gif
+  - image_path: assets/img/str (24 x 18 in) (7).gif
 ---
 Generative Design
 o Critique generative design. How useful is it really? What are the drawbacks?
@@ -76,11 +76,5 @@ o Short rational
 {% include gallery caption="EPFF Device Gallery" %}
 
 # References 
-[Ashrafizadeh, S. N., Zare, M., & Khatibi, M. (2025). A comprehensive review of pinch flow fractionation in microfluidics: From principles to practical applications. Chemical Engineering and Processing: Process Intensification, 208, 110087.](https://doi.org/10.1016/j.cep.2024.110087)
 
-[Torres-Castro, K., Acuña-Umaña, K., Lesser-Rojas, L., & Reyes, D. R. (2023). Microfluidic blood separation: Key technologies and critical figures of merit. Micromachines, 14(11), 2117.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10672873/)
-
-[Vig, A. L., & Kristensen, A. (2008). Separation enhancement in pinched flow fractionation. Applied Physics Letters, 93(20), 203507.](https://backend.orbit.dtu.dk/ws/files/4832606/Asger.pdf)
-
-[Yamada, M.; Nakashima, M.; Seki, M. (2004) Pinched Flow Fractionation: Continuous Size Separation of Particles Utilizing a Laminar Flow Profile in a Pinched Microchannel. Anal. Chem. 76(18), 5465–5471.](https://doi.org/10.1021/ac049863r)
 
