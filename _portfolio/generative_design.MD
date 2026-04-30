@@ -14,8 +14,11 @@ gallery:
   - image_path: assets/img/FullSizeRender (5).jpeg
   - image_path: assets/img/FullSizeRender (6).jpeg
   - image_path: assets/img/FullSizeRender (7).jpeg
+  - image_path: assets/img/FullSizeRender 2.jpeg
   - image_path: assets/img/str (24 x 18 in) (4).gif
   - image_path: assets/img/str (24 x 18 in) (3).gif
+  - image_path: assets/img/str (24 x 18 in) (5).gif
+  - image_path: assets/img/str (24 x 18 in) (6).gif
 ---
 Generative Design
 o Critique generative design. How useful is it really? What are the drawbacks?
