@@ -53,18 +53,14 @@ o Critique generative design. How useful is it really? What are the drawbacks?
 What applications would generative design be most useful in?
 
 ## Applied Forces 
-+----------------+-----------------------------------+------------------------+----------------------------------------------+
-| Force Name     | Magnitude                         | Location (Applied At)  | Rationale                                    |
-+----------------+-----------------------------------+------------------------+----------------------------------------------+
-| Rider Load     | 800 N total (400 N per side)      | Axle ends              | Represents rider weight with safety margin   |
-| Impact Load    | 1400 N (applied on one side)      | Single axle end        | Simulates shock from terrain                 |
-| Motor Torque   | 15 Nm                             | Motor shaft interface  | Represents belt-driven motor torque          |
-| Braking Force  | 300 N total (150 N per side)      | Axle ends              | Simulates deceleration                       |
-| Lateral Load   | 300 N total (150 N per side)      | Axle ends              | Represents turning forces                    |
-+----------------+-----------------------------------+------------------------+----------------------------------------------+
+| Force Name    | Magnitude                    | Location (Applied At) | Rationale                                                                 |
+| ------------- | ---------------------------- | --------------------- | ------------------------------------------------------------------------- |
+| Rider Load    | 800 N total (400 N per side) | Axle ends             | Represents rider weight distributed across both wheels with safety margin |
+| Impact Load   | 1400 N (applied on one side) | Single axle end       | Simulates shock from terrain such as hitting a curb or landing            |
+| Motor Torque  | 15 Nm                        | Motor shaft interface | Represents torque transmitted from motor through belt drive               |
+| Braking Force | 300 N total (150 N per side) | Axle ends             | Simulates deceleration forces during braking                              |
+| Lateral Load  | 300 N total (150 N per side) | Axle ends             | Represents forces generated during turning/carving                        |
 
-# Interactive Model
-## Aluminum ALSi10Mg
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028114c1df3092b30a034?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
@@ -79,9 +75,9 @@ What applications would generative design be most useful in?
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b60281156d5f3e5195d9289?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="EPFF Device Gallery" %}
+{% include gallery caption="Skate Board GD Gallery" %}
 
 # References 
-[Markovits, T., & Szederkényi, B. (2022). Investigation of generative design for powder bed fusion technology in case of Formula Student race car components using Ti6Al4V alloy. Journal of Manufacturing Processes, 80, 220–231.] (https://doi.org/10.1016/j.jmapro.2022.05.058)
+[Markovits, T., & Szederkényi, B. (2022). Investigation of generative design for powder bed fusion technology in case of Formula Student race car components using Ti6Al4V alloy. Journal of Manufacturing Processes, 80, 220–231.](https://doi.org/10.1016/j.jmapro.2022.05.058)
 
 
