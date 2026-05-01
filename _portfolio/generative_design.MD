@@ -33,27 +33,31 @@ For example, [Markovits and Szederkényi (2022)](https://doi.org/10.1016/j.jmapr
 ## Applying the Proper Load Cases
 Applying proper load cases is essential in generative design because the final geometry depends entirely on the forces and constraints defined. Unrealistic or missing loads can lead to weak or overlaying, heavy designs. With accurate loads, the material is expected to generate correctly and placed efficiently.
 
-In this project, forces were selected based on real skateboard use conditions. A vertical load represents rider weight, torque at the motor mount simulates propulsion, and lateral forces account for turning. Additional loads, such as braking and impact forces, were included to capture more extreme scenarios. These were determined by analyzing how the skateboard is used in practice and estimating values using average rider mass and motor specifications. This process could be improved by using experimental measurements, dynamic simulations, or more detailed analytical calculations to better reflect real-world conditions.
+In this project, the forces were determined based on how a skateboard operates in real conditions. A vertical load was used to represent the rider’s weight acting on the axle, while torque at the motor mount simulated the propulsion from the motor. There were also lateral forces were taken to account, including turning and carving, where the side loads are applied based on how the rider leans. Additional forces, such as braking and impact loads, are also added to represent more extreme scenarios like sudden stops or rough terrain. These values were estimated using engineering assumptions as well as the help of the internet and AI tools to gain a better understanding of reasonable forces within this system.
+
+This process could be improved by using experimental data, such as measuring forces during actual riding, or by using dynamic simulations to better capture how forces change over time. More detailed analytical calculations could also provide more accurate estimates. Overall, selecting and refining load cases is important for producing a design that is both lightweight and strong, structurally.
 
 ## Comparing AlSi10Mg and 17-4 PH
 
-The generative design results for AlSi10Mg and 17-4 PH stainless steel show clear differences due to their material properties. AlSi10Mg, being less dense, produces a lighter design but typically requires more material distribution to meet strength requirements, resulting in more complex and organic geometries. These designs often spread material along multiple load paths to compensate for lower strength.
+The generative design results for AlSi10Mg and 17-4 PH stainless steel show clear differences driven by their material properties. AlSi10Mg has a lower density and lower strength compared to 17-4 PH, which leads to lighter components but requires a greater material distribution to satisfy structural constraints. As a result, designs generated with AlSi10Mg tend to exhibit more complex, organic geometries with material spread across multiple load paths.
 
-In contrast, 17-4 PH stainless steel has higher strength and stiffness, allowing the design to use less material in critical areas and appear more compact. However, because it is denser, the overall component may still be heavier despite using less volume. This highlights the trade-off between strength and weight when selecting materials.
+In contrast, 17-4 PH stainless steel offers higher strength and stiffness, allowing more material in critical regions. This typically results in more compact and cleaner geometries with less overall volume. However, due to its higher density, the final component may still be heavier despite using less material.
+
+When the models were generated for this project, the models were similar in their structures, but there were subtle differences. The AlSi10Mg designs showed more material distribution and larger cross-sectional features, such as thicker 'cylindrical' regions, to compensate for lower mechanical properties. The 17-4 PH models, on the other hand, maintained smaller feature sizes while still meeting performance requirements.
 
 As a result, AlSi10Mg is better suited for applications where minimizing weight is the priority, such as aerospace or lightweight vehicles. On the other hand, 17-4 PH is more appropriate when higher strength, durability, and stiffness are required, even if it results in slightly higher mass. Material choice therefore plays a major role in determining the final geometry and performance of generative design outcomes.
 
 ## Critiques to Generative Design
 
-Generative design is a useful tool for creating lightweight and efficient parts, especially when combined with additive manufacturing. It works well in industries like aerospace and automotive, where reducing weight and improving performance are important. It can also combine multiple parts into one, which simplifies designs, reduces assembly time, and can improve overall reliability.
+As mentioned, generative design is a useful tool for creating lightweight and efficient parts, especially when combined with additive manufacturing. It works well in industries like aerospace and automotive, where reducing weight and improving performance are important. It can also combine multiple parts into one, which simplifies designs, reduces assembly time, and can improve overall reliability.
 
-However, it has some drawbacks. The results depend heavily on the inputs, such as loads and constraints, so poor assumptions can lead to bad or unrealistic designs. The shapes it produces can also be very complex, making them harder to manufacture, inspect, or integrate with other components. Even with additive manufacturing, there can be limitations related to print orientation, support structures, and post-processing requirements.
+However, it has some drawbacks. The results depend heavily on the inputs, such as loads and constraints, so poor assumptions and mistakes can lead to bad or unrealistic designs. The shapes it produces can also be very complex, making them harder to manufacture, inspect, or integrate with other components. Even with additive manufacturing, there can be limitations related to print orientation, support structures, and post-processing requirements.
 
 Generative design also requires significant computational resources and engineering judgment. It is not a fully automatic solution, as engineers still need to interpret results, verify performance, and make adjustments. In addition, for high-volume production, traditional manufacturing methods are often more cost-effective.
 
 Generative design is most useful for complex, high-performance parts where optimization is critical and production volume is low to moderate. It is less beneficial for simple or standardized components where traditional design and manufacturing methods are faster, cheaper, and more practical. Overall, generative design is a powerful tool, but it is most effective when used alongside traditional engineering methods rather than as a complete replacement.
 
-## Applied Forces |--------|--------|---------------------|--------------------|
+## Applied Forces 
 
 | Force Name    | Magnitude                    | Location (Applied At) | Rationale                                                                 |
 |--------|--------|---------------------|--------------------|
@@ -63,11 +67,10 @@ Generative design is most useful for complex, high-performance parts where optim
 | Braking Force | 300 N total (150 N per side) | Axle ends             | Simulates deceleration forces during braking                              |
 | Lateral Load  | 300 N total (150 N per side) | Axle ends             | Represents forces generated during turning/carving                        |
 
-
+## Aluminum Alsi10Mg
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028114c1df3092b30a034?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Stainless Steel 17-4 PH 
-
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811e34c6d7e6754b6fa?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Edited Stainless Steel 17-4 PH Model with Nylon 
