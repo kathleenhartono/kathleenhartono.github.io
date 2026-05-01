@@ -53,10 +53,10 @@ Generative design also requires significant computational resources and engineer
 
 Generative design is most useful for complex, high-performance parts where optimization is critical and production volume is low to moderate. It is less beneficial for simple or standardized components where traditional design and manufacturing methods are faster, cheaper, and more practical. Overall, generative design is a powerful tool, but it is most effective when used alongside traditional engineering methods rather than as a complete replacement.
 
-## Applied Forces 
+## Applied Forces |--------|--------|---------------------|--------------------|
 
 | Force Name    | Magnitude                    | Location (Applied At) | Rationale                                                                 |
-| ------------- | ---------------------------- | --------------------- | ------------------------------------------------------------------------- |
+|--------|--------|---------------------|--------------------|
 | Rider Load    | 800 N total (400 N per side) | Axle ends             | Represents rider weight distributed across both wheels with safety margin |
 | Impact Load   | 1400 N (applied on one side) | Single axle end       | Simulates shock from terrain such as hitting a curb or landing            |
 | Motor Torque  | 15 Nm                        | Motor shaft interface | Represents torque transmitted from motor through belt drive               |
