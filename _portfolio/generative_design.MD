@@ -51,11 +51,11 @@ As a result, AlSi10Mg is better suited for applications where minimizing weight 
 
 As mentioned, generative design is a useful tool for creating lightweight and efficient parts, especially when combined with additive manufacturing. It works well in industries like aerospace and automotive, where reducing weight and improving performance are important. It can also combine multiple parts into one, which simplifies designs, reduces assembly time, and can improve overall reliability.
 
-However, it has some drawbacks. The results depend heavily on the inputs, such as loads and constraints, so poor assumptions and mistakes can lead to bad or unrealistic designs. The shapes it produces can also be very complex, making them harder to manufacture, inspect, or integrate with other components. Even with additive manufacturing, there can be limitations related to print orientation, support structures, and post-processing requirements.
+However, it has some drawbacks. The results depend heavily on the inputs, such as loads and constraints, so poor assumptions and mistakes can lead to bad or unrealistic designs. The shapes it produces can also be very complex, making them harder to manufacture, inspect, or integrate with other components. Even with additive manufacturing, there can be limitations with print orientation, supports, and post-processing.
 
-Generative design also requires significant computational resources and engineering judgment. It is not a fully automatic solution, as engineers still need to interpret results, verify performance, and make adjustments. In addition, for high-volume production, traditional manufacturing methods are often more cost-effective.
+Generative design also requires significant computational and engineering knowledge. It is not a fully automatic method which means that engineers still need to interpret results, verify performance, and make adjustments. In addition, for high-volume production, traditional manufacturing methods are often more cost-effective.
 
-Generative design is most useful for complex, high-performance parts where optimization is critical and production volume is low to moderate. It is less beneficial for simple or standardized components where traditional design and manufacturing methods are faster, cheaper, and more practical. Overall, generative design is a powerful tool, but it is most effective when used alongside traditional engineering methods rather than as a complete replacement.
+Generative design is most useful for complex, high-performance parts where optimization is critical and the production volume is low. It is less beneficial for simple or standardized components where traditional design and manufacturing methods are faster, cheaper, and more practical. Overall, generative design is a powerful tool, but it is most effective when used alongside traditional engineering methods rather than as a complete replacement.
 
 ## Applied Forces 
 
