@@ -82,5 +82,6 @@ What applications would generative design be most useful in?
 {% include gallery caption="EPFF Device Gallery" %}
 
 # References 
+[Markovits, T., & Szederkényi, B. (2022). Investigation of generative design for powder bed fusion technology in case of Formula Student race car components using Ti6Al4V alloy. Journal of Manufacturing Processes, 80, 220–231.] (https://doi.org/10.1016/j.jmapro.2022.05.058)
 
 
